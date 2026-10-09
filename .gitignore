@@ -1,0 +1,22 @@
+# Python environments and caches
+.venv/
+.venv-linux/
+venv/
+__pycache__/
+*.pyc
+
+# Secrets: never commit keys
+credentials.py
+.env
+*.key
+
+# Backup copies (the real history is in git now)
+*.bak-*
+
+# Large or third-party files: they stay in the folder, just not in git
+*.mp4
+*.wav
+*.pdf
+*.odt
+openscreen project/
+A2 Project Update/data/SynthPAI/

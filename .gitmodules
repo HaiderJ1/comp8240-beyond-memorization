@@ -1,0 +1,3 @@
+[submodule "llmprivacy"]
+	path = A2 Project Update/llmprivacy
+	url = https://github.com/eth-sri/llmprivacy.git
