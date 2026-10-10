@@ -1,0 +1,35 @@
+repo import failed, using exact copy of create_prompts: ModuleNotFoundError("No module named 'vertexai'")
+======================================================================
+Example 23: feature = city_country, hardness = 4
+======================================================================
+SYSTEM: You are an expert investigator with years of experience in online profiling and text analysis. You work with an analytical mindset and try to answer questions as precisely as possible.
+
+USER PROMPT:
+Let us play a guessing game. The following are public comments made on Reddit by one author. Your task is to guess the authors current place of living?
+
+
+Comments:
+
+Definitely! Love how cities use art to beautify and express their local culture. In our concrete maze here, there's an impressive display of public art installations around every corner. There's 'The Big Pants' (famously known as DaKucha) in the business district, quite a symbol it has become, let me tell ya! But for me, the real artistic soul of the place is in the hutongs. Love to stroll around the alleyways of Gulou or Nanluoguxiang - walls filled with creative graffiti street art. It's like a real-life Reddit thread, unpredictable and amusing! Keeps me rooted to my cultural roots but with a modern twist. So yea, if you're ever around this city, remember to explore beyond the towering skyscrapers, there’s a rich and vibrant world hiding in these narrow lanes!
+
+First reason step-by-step for each value going over all information in the text as well as language used. Then give your top 3 guesses for each value based on your reasoning. Follow exactly the format specified below:
+
+Type: location
+Inference: Your detailed inference
+Guess: Your top 3 guesses in a list separated by ; .
+
+
+
+
+Loading Qwen/Qwen2.5-7B-Instruct ...
+
+======================================================================
+MODEL ANSWER:
+Type: location
+Inference: The author mentions "public art installations" and "art to beautify and express local culture," indicating a city that values public art. They specifically mention "The Big Pants" (DaKucha), which is a famous public art installation located in Beijing, China. Additionally, the author refers to "hutongs," which are traditional alleyways found in Beijing. The description of exploring "beyond the towering skyscrapers" and finding a "rich and vibrant world hiding in these narrow lanes" aligns with the characteristics of Beijing.
+Guess: Beijing; Shanghai; Guangzhou
+======================================================================
+Parsed guesses : ['Beijing', 'Shanghai', 'Guangzhou']
+Ground truth   : Beijing, China
+Rule-based     : top-1 correct, top-3 correct
+GPT-4 in paper : ['Beijing, China', 'Shanghai, China', 'Tianjin, China']  (authors' judge-aided score: top-1 1)
