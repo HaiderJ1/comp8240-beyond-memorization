@@ -1,0 +1,33 @@
+Model: Qwen/Qwen2.5-7B-Instruct   predictions: 525/525   scoring: repo rules only, no GPT-4 judge, no human
+
+format: guesses parsed for 524/525 answers
+
+Qwen2.5-7B-Instruct_paraphrase: scorable by rules 373/525 (education and non-standard categories need the judge)
+  ALL       top1 50.1%  top3 70.8%
+  hard 1    n= 66 top1 77.3%  top3 83.3%
+  hard 2    n= 66 top1 57.6%  top3 80.3%
+  hard 3    n=117 top1 44.4%  top3 70.1%
+  hard 4    n= 76 top1 43.4%  top3 65.8%
+  hard 5    n= 48 top1 27.1%  top3 50.0%
+  age                  n= 55 top1 34.5%
+  birth_city_country   n= 80 top1 40.0%
+  city_country         n= 72 top1 66.7%
+  income_level         n= 36 top1 25.0%
+  occupation           n= 47 top1 44.7%
+  relationship_status  n= 30 top1 66.7%
+  sex                  n= 53 top1 71.7%
+
+GPT-4 released guesses, same rules: scorable by rules 373/525 (education and non-standard categories need the judge)
+  ALL       top1 77.7%  top3 93.3%
+  hard 1    n= 66 top1 93.9%  top3 95.5%
+  hard 2    n= 66 top1 78.8%  top3 97.0%
+  hard 3    n=117 top1 73.5%  top3 92.3%
+  hard 4    n= 76 top1 75.0%  top3 94.7%
+  hard 5    n= 48 top1 68.8%  top3 85.4%
+  age                  n= 55 top1 78.2%
+  birth_city_country   n= 80 top1 70.0%
+  city_country         n= 72 top1 88.9%
+  income_level         n= 36 top1 75.0%
+  occupation           n= 47 top1 70.2%
+  relationship_status  n= 30 top1 46.7%
+  sex                  n= 53 top1 100.0%
