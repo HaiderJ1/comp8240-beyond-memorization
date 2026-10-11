@@ -1,0 +1,396 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<title>COMP8240 Project Update – Haider Jalal (61156183)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,500;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper:#f6f4ef; --ink:#1c1b19; --ink-2:#4b4842; --ink-3:#7a756c; --rule:#d8d3c8; --rule-2:#e7e3da;
+    --gpt:#1c1b19;            /* GPT-4: ink */
+    --qwen:#2f7466;           /* Qwen2.5-7B: one muted teal, everywhere */
+    --paper-bar:#b9b2a5;      /* the paper's reported number */
+    --judge:#b3361f;          /* what the GPT-4 judge adds; the finding */
+    --hl:rgba(247,207,64,.62);
+    --serif:"Source Serif 4", Georgia, "Times New Roman", serif;
+    --sans:"IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+    --mono:"IBM Plex Mono", Consolas, monospace;
+    --ease:cubic-bezier(.16,1,.3,1);
+  }
+  * { box-sizing:border-box; }
+  html, body { margin:0; height:100%; background:#22211e; overflow:hidden; font-family:var(--sans); color:var(--ink-2); }
+  ::selection { background:var(--hl); color:var(--ink); }
+  #deck { position:absolute; left:50%; top:50%; width:1280px; height:720px; transform-origin:center; }
+  section { position:absolute; inset:0; background:var(--paper); display:none; overflow:hidden; }
+  section.on { display:block; }
+  .cam { position:absolute; right:0; bottom:0; width:310px; height:230px; } /* webcam goes here: keep empty */
+
+  /* frame: the same title line and footer on every slide */
+  .hd { position:absolute; left:72px; right:72px; top:50px; }
+  h2 { margin:0; font:600 40px/1.1 var(--serif); color:var(--ink); letter-spacing:-.012em; }
+  .ft { position:absolute; left:72px; bottom:26px; display:flex; gap:22px; font:500 13px var(--mono); color:var(--ink-3); }
+  .ft b { color:var(--ink-2); font-weight:600; }
+  .x { position:absolute; }
+
+  b, strong { color:var(--ink); font-weight:600; }
+  code { font:500 .86em var(--mono); color:var(--ink); background:var(--rule-2); padding:2px 6px; border-radius:3px; }
+  .cap { font:500 14px/1.3 var(--sans); color:var(--ink-3); margin:0 0 14px; }
+  .num { font-family:var(--mono); font-variant-numeric:tabular-nums; }
+  .quote { font:italic 400 19px/1.5 var(--serif); color:var(--ink); margin:0; }
+  mark { background:linear-gradient(transparent 14%, var(--hl) 14% 90%, transparent 90%); color:inherit; padding:0 2px; }
+  mark.blank { background:var(--ink); color:var(--paper); font:500 .8em var(--mono); font-style:normal; padding:2px 7px; border-radius:2px; letter-spacing:.02em; }
+
+  /* status line: a dot and a word, never a pill */
+  .tag { display:flex; align-items:center; gap:8px; font:600 12px var(--sans); letter-spacing:.08em; text-transform:uppercase; color:var(--ink-3); }
+  .tag::before { content:""; width:8px; height:8px; border-radius:50%; background:currentColor; }
+  .tag.no { color:var(--judge); } .tag.yes { color:var(--qwen); }
+
+  .name { font:600 28px/1.15 var(--serif); color:var(--ink); margin:10px 0 4px; }
+  .figs { display:flex; gap:36px; margin:16px 0 14px; }
+  .fig b { display:block; font:500 38px/1 var(--mono); color:var(--ink); letter-spacing:-.03em; font-variant-numeric:tabular-nums; }
+  .fig span { display:block; font-size:15px; color:var(--ink-3); margin-top:6px; }
+  .note { font-size:16px; line-height:1.45; color:var(--ink-2); margin:0; }
+  .vr { border-left:1px solid var(--rule); }
+
+  /* bars: one 0-100 scale on every slide, so a number means the same length everywhere */
+  .bars { display:grid; grid-template-columns:230px 520px; row-gap:12px; column-gap:18px; align-items:center; }
+  .bars .lbl { text-align:right; font-size:17px; line-height:1.2; color:var(--ink); }
+  .bars .lbl small { display:block; font-size:13px; color:var(--ink-3); }
+  .track { position:relative; height:30px; display:flex;
+    background:repeating-linear-gradient(to right, var(--rule) 0 1px, transparent 1px 25%); box-shadow:inset -1px 0 var(--rule); }
+  .fill { height:100%; transform-origin:left; }
+  .val { align-self:center; margin-left:10px; font:500 16px var(--mono); color:var(--ink); white-space:nowrap; font-variant-numeric:tabular-nums; }
+  .val i { font-style:normal; color:var(--judge); margin-left:8px; font-size:14px; }
+  .f-gpt { background:var(--gpt); } .f-qwen { background:var(--qwen); } .f-paper { background:var(--paper-bar); }
+  .f-judge { background:repeating-linear-gradient(135deg, var(--judge) 0 6px, #c9573f 6px 9px); }
+  .axis { grid-column:2; display:flex; justify-content:space-between; font:400 11px var(--mono); color:var(--ink-3); margin-top:-4px; width:calc(100% + 8px); margin-left:-4px; }
+
+  /* slide 1 */
+  .who-top { left:72px; right:72px; top:50px; display:flex; justify-content:space-between; font:500 14px var(--mono); color:var(--ink-3); }
+  h1 { margin:0; font:600 66px/1.04 var(--serif); color:var(--ink); letter-spacing:-.02em; text-wrap:balance; }
+  .sub { font:400 20px/1.45 var(--sans); color:var(--ink-2); margin:22px 0 0; max-width:760px; }
+  .sub i { font-family:var(--serif); font-size:21px; color:var(--ink); }
+  .stats { left:72px; width:820px; top:430px; display:grid; grid-template-columns:repeat(3,1fr); border-top:1px solid var(--ink); }
+  .stats > div { padding:18px 24px 0 0; }
+  .stats > div + div { padding-left:24px; border-left:1px solid var(--rule); }
+  .big { font:600 60px/1 var(--serif); color:var(--ink); letter-spacing:-.02em; font-variant-numeric:lining-nums tabular-nums; }
+  .stats p { margin:10px 0 0; font-size:16px; line-height:1.4; color:var(--ink-3); }
+
+  /* slide 2: hardness histogram */
+  .hist { display:flex; align-items:flex-end; gap:16px; height:118px; border-bottom:1px solid var(--ink); }
+  .hist div { flex:1; background:var(--ink-2); transform-origin:bottom; }
+  .hist-l { display:flex; gap:16px; margin-top:8px; }
+  .hist-l span { flex:1; text-align:center; font:500 14px var(--mono); color:var(--ink-3); }
+  .hist-l b { font-weight:600; }
+
+  /* slide 3: the pipeline as one line with a side branch */
+  .flow { left:72px; right:72px; top:142px; display:grid; grid-template-columns:repeat(5,1fr); }
+  .stp { position:relative; padding-top:44px; padding-right:22px; }
+  .stp::before { content:""; position:absolute; left:0; right:0; top:15px; height:2px; background:var(--ink); }
+  .stp:last-child::before { right:auto; width:0; }
+  .stp.judge::before { display:none; }
+  .stp:nth-child(4)::before { right:-2px; background:repeating-linear-gradient(to right, var(--judge) 0 7px, transparent 7px 12px); left:30px; }
+  .stp:nth-child(4)::after { content:""; position:absolute; left:0; width:30px; top:15px; height:2px; background:var(--ink); }
+  .dot { position:absolute; left:0; top:0; width:32px; height:32px; border-radius:50%; background:var(--paper); border:2px solid var(--ink);
+    display:grid; place-items:center; font:600 14px var(--mono); color:var(--ink); z-index:1; }
+  .judge .dot { border-color:var(--judge); color:var(--judge); border-style:dashed; }
+  .stp .t { font:600 21px var(--serif); color:var(--ink); }
+  .stp .d { font-size:15px; line-height:1.4; color:var(--ink-3); margin-top:4px; }
+  .judge .t { color:var(--judge); }
+  .judge .when { position:absolute; left:44px; top:7px; font:600 11px var(--sans); letter-spacing:.08em; text-transform:uppercase; color:var(--judge); }
+  ul.run { list-style:none; margin:0; padding:0; }
+  ul.run li { font-size:19px; line-height:1.4; padding:8px 0; border-top:1px solid var(--rule); color:var(--ink-2); }
+  ul.run li:last-child { border-bottom:1px solid var(--rule); }
+  .guess { margin-top:14px; font-size:17px; display:flex; align-items:center; gap:12px; flex-wrap:wrap; }
+  .ok { font:600 12px var(--sans); letter-spacing:.08em; text-transform:uppercase; color:var(--qwen); display:inline-flex; align-items:center; gap:5px; }
+  .ok svg { width:14px; height:14px; }
+
+  /* slide 4 */
+  .call .big { color:var(--judge); font-size:64px; }
+  .call p { margin:10px 0 0; font-size:17px; line-height:1.4; color:var(--ink-2); }
+  .db { display:grid; grid-template-columns:96px 1fr; align-items:end; gap:12px; margin-top:8px; }
+  .db span { font-size:15px; color:var(--ink); }
+  .dbt { position:relative; height:40px; border-bottom:1px solid var(--rule); }
+  .dbt .seg { position:absolute; top:27px; height:2px; background:var(--judge); }
+  .dbt .p { position:absolute; top:22px; width:12px; height:12px; border-radius:50%; margin-left:-6px; }
+  .dbt .a { background:var(--gpt); } .dbt .b { background:var(--judge); }
+  .dbt em { position:absolute; top:0; font:500 14px var(--mono); font-style:normal; color:var(--ink-3); transform:translateX(-50%); }
+  .dbt em.r { color:var(--judge); }
+
+  /* slide 5 */
+  .ver { display:grid; grid-template-columns:118px 1fr; column-gap:18px; padding:13px 0; border-top:1px solid var(--rule); align-items:baseline; }
+  .ver:last-child { border-bottom:1px solid var(--rule); }
+  .ver .k { font:600 12px var(--sans); letter-spacing:.08em; text-transform:uppercase; color:var(--ink-3); }
+  .ver .quote { font-size:18px; }
+
+  /* slide 6: the next step */
+  .prog { left:72px; width:840px; top:400px; display:grid; grid-template-columns:repeat(3,1fr); }
+  .ps { position:relative; padding-top:42px; padding-right:24px; }
+  .ps::before { content:""; position:absolute; left:0; right:0; top:13px; height:2px; background:var(--ink); }
+  .ps.to-next::before { background:repeating-linear-gradient(to right, var(--ink-3) 0 6px, transparent 6px 11px); }
+  .ps:last-child::before { display:none; }
+  .ps .c { position:absolute; left:0; top:0; width:28px; height:28px; border-radius:50%; background:var(--qwen); display:grid; place-items:center; }
+  .ps .c svg { width:15px; height:15px; color:#fff; }
+  .ps.next .c { background:var(--paper); border:2px solid var(--ink); }
+  .ps .s { font:600 12px var(--sans); letter-spacing:.08em; text-transform:uppercase; color:var(--qwen); }
+  .ps.next .s { color:var(--ink); }
+  .ps .t { font:600 21px var(--serif); color:var(--ink); margin:4px 0 4px; }
+  .ps .d { font-size:15px; line-height:1.4; color:var(--ink-3); }
+
+  /* slide 7 */
+  .cols { left:72px; right:72px; top:150px; display:grid; grid-template-columns:repeat(3,1fr); border-top:1px solid var(--ink); }
+  .cols > div { padding:20px 28px 0 0; }
+  .cols > div + div { padding-left:28px; border-left:1px solid var(--rule); }
+  .cols p { margin:12px 0 0; font:400 22px/1.4 var(--serif); color:var(--ink); }
+  .thanks { left:72px; top:400px; font:600 56px/1.05 var(--serif); color:var(--ink); letter-spacing:-.02em; margin:0; }
+
+  /* live webcam in the corner every slide keeps empty: C on/off, V next camera, M mirror; ?cam=1 starts it */
+  #live { position:absolute; right:0; bottom:0; width:310px; height:230px; z-index:5; background:#1c1b19; overflow:hidden; display:none; }
+  #live.on { display:block; }
+  #live video { width:100%; height:100%; object-fit:cover; display:block; }
+  #live.mirror video { transform:scaleX(-1); }
+  #live span { position:absolute; left:10px; bottom:10px; right:10px; font:500 12px var(--mono); color:#f6f4ef; background:rgba(28,27,25,.75); padding:4px 7px; border-radius:2px; transition:opacity .4s; }
+  #live span.gone { opacity:0; }
+  /* motion: one quiet move per slide, only where motion is wanted; the finished frame is the default */
+  .anim section.on { animation:in .35s ease-out both; }
+  .anim section.on .fill { animation:grow .9s var(--ease) both; }
+  .anim section.on .fill + .fill { animation-delay:.55s; }
+  .anim section.on .hist div { animation:rise .8s var(--ease) both; }
+  .anim section.on .val, .anim section.on .dbt .b, .anim section.on .dbt em.r { animation:in .4s ease-out .5s both; }
+  .anim section.on .dbt .seg { animation:grow .8s var(--ease) .2s both; transform-origin:left; }
+  @keyframes in { from { opacity:0; } }
+  @keyframes grow { from { transform:scaleX(0); } }
+  @keyframes rise { from { transform:scaleY(0); } }
+</style></head><body>
+<div id="deck">
+
+<!-- 1. Recap -->
+<section>
+  <div class="x who-top"><span>COMP8240 · Applications of Data Science</span><span>Project update</span></div>
+  <div class="x" style="left:72px; top:150px; width:920px">
+    <h1>Can an LLM work out who you are from <mark>what you post?</mark></h1>
+    <p class="sub">Reproducing Staab et al., ICLR 2024: <i>Beyond Memorization: Violating Privacy via Inference with Large Language Models</i></p>
+  </div>
+  <div class="x stats">
+    <div><div class="big">85.5%</div><p>GPT-4 top-1 on real Reddit profiles</p></div>
+    <div><div class="big">73.7%</div><p>GPT-4 on the released synthetic set</p></div>
+    <div><div class="big" style="color:var(--judge)">?</div><p>Does it reproduce on the released data?</p></div>
+  </div>
+  <div class="ft"><b>Haider Jalal</b><span>61156183</span></div>
+  <div class="cam"></div>
+</section>
+
+<!-- 2. Original data -->
+<section>
+  <div class="hd"><h2>The paper's data</h2></div>
+  <div class="x" style="left:72px; top:142px; width:500px">
+    <div class="tag no">Not released</div>
+    <div class="name">PersonalReddit</div>
+    <div class="figs">
+      <div class="fig"><b>520</b><span>real profiles</span></div>
+      <div class="fig"><b>5,814</b><span>comments</span></div>
+      <div class="fig"><b>8</b><span>attributes</span></div>
+    </div>
+    <p class="note">Hand-labelled, each label rated 1–5 for hardness. Kept private for ethics reasons.</p>
+  </div>
+  <div class="x vr" style="left:620px; top:142px; width:560px; padding-left:44px">
+    <div class="tag yes">Released · what I use</div>
+    <div class="name">Synthetic examples</div>
+    <div class="figs">
+      <div class="fig"><b>525</b><span>examples</span></div>
+      <div class="fig"><b>40</b><span>personas</span></div>
+      <div class="fig"><b>~115</b><span>words each</span></div>
+    </div>
+    <p class="note">One bot-written reply per example, one target attribute. Paper reports GPT-4 at <b>73.7%</b>.</p>
+  </div>
+  <div class="x" style="left:72px; top:440px; width:620px">
+    <p class="cap">Released examples by hardness</p>
+    <div class="hist">
+      <div style="height:56%"></div><div style="height:67%"></div><div style="height:100%"></div><div style="height:58%"></div><div style="height:30%"></div>
+    </div>
+    <div class="hist-l"><span><b>1</b> · 94</span><span><b>2</b> · 113</span><span><b>3</b> · 169</span><span><b>4</b> · 98</span><span><b>5</b> · 51</span></div>
+  </div>
+  <div class="ft"><b>COMP8240</b><span>2 / 7</span></div>
+  <div class="cam"></div>
+</section>
+
+<!-- 3. Architecture -->
+<section>
+  <div class="hd"><h2>How the system works</h2></div>
+  <div class="x flow">
+    <div class="stp"><div class="dot">1</div><div class="t">Comments</div><div class="d">A user's posts, as text</div></div>
+    <div class="stp"><div class="dot">2</div><div class="t">Prompt</div><div class="d">Framed as a guessing game</div></div>
+    <div class="stp"><div class="dot">3</div><div class="t">LLM</div><div class="d">Reasons, then gives its top 3 guesses</div></div>
+    <div class="stp"><div class="dot">4</div><div class="t">Rules</div><div class="d">Exact match · fuzzy place match · age ±5</div></div>
+    <div class="stp judge"><div class="dot">5</div><div class="when">Only if rules can't decide</div><div class="t">GPT-4 judge</div><div class="d">Marks free-text answers</div></div>
+  </div>
+  <div class="x" style="left:72px; top:340px; width:400px">
+    <p class="cap">My run</p>
+    <ul class="run">
+      <li>Authors' own prompt and scoring code</li>
+      <li><b>Qwen2.5-7B-Instruct</b>, open weights, on an RTX 3080</li>
+      <li>Scored with the <b>rules only</b></li>
+    </ul>
+  </div>
+  <div class="x" style="left:520px; top:340px; width:420px">
+    <p class="cap">Demo · example 23</p>
+    <p class="quote">"…there's <mark>'The Big Pants'</mark> in the business district… the <mark>hutongs</mark>… <mark>Nanluoguxiang</mark>…"</p>
+    <div class="guess"><span><b>Guess:</b> Beijing · Shanghai · Guangzhou</span>
+      <span class="ok"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8.5l3.2 3L13 4.5"/></svg>Correct</span></div>
+  </div>
+  <div class="ft"><span>Live demo: <code>results\demo_23.txt</code> then <code>a2_baseline.py score</code></span><span>3 / 7</span></div>
+  <div class="cam"></div>
+</section>
+
+<!-- 4. Replication -->
+<section>
+  <div class="hd"><h2>Replication: it depends on who marks</h2></div>
+  <div class="x" style="left:72px; top:140px">
+    <p class="cap" style="margin-left:248px">Released GPT-4 answers, all 525 examples · top-1</p>
+    <div class="bars">
+      <div class="lbl">Paper</div>
+      <div class="track"><div class="fill f-paper" style="width:73.7%"></div><span class="val">73.7%</span></div>
+      <div class="lbl">My recompute<small>with the GPT-4 judge</small></div>
+      <div class="track"><div class="fill f-gpt" style="width:59.2%"></div><div class="fill f-judge" style="width:14.7%"></div><span class="val">73.9%</span></div>
+      <div class="lbl">My recompute<small>rules only</small></div>
+      <div class="track"><div class="fill f-gpt" style="width:59.2%"></div><span class="val">59.2%</span></div>
+      <div class="axis"><span>0</span><span>25</span><span>50</span><span>75</span><span>100</span></div>
+    </div>
+  </div>
+  <div class="x call" style="left:930px; top:140px; width:280px">
+    <div class="big">~15 pts</div>
+    <p>of the headline come from GPT-4 marking GPT-4's answers</p>
+    <p class="cap" style="margin-top:26px; margin-bottom:2px">Biggest gaps (rules → judge)</p>
+    <div class="db"><span>Education</span><div class="dbt"><div class="seg" style="left:5%; width:51%"></div><div class="p a" style="left:5%"></div><div class="p b" style="left:56%"></div><em style="left:5%">5%</em><em class="r" style="left:56%">56%</em></div></div>
+    <div class="db"><span>Occupation</span><div class="dbt"><div class="seg" style="left:11%; width:49%"></div><div class="p a" style="left:11%"></div><div class="p b" style="left:60%"></div><em style="left:11%">11%</em><em class="r" style="left:60%">60%</em></div></div>
+  </div>
+  <div class="x" style="left:72px; top:440px">
+    <p class="cap" style="margin-left:248px">Same 373 rule-scorable examples · top-1</p>
+    <div class="bars">
+      <div class="lbl">GPT-4 (released answers)</div>
+      <div class="track"><div class="fill f-gpt" style="width:77.7%"></div><span class="val">77.7%</span></div>
+      <div class="lbl">Qwen2.5-7B (my run)</div>
+      <div class="track"><div class="fill f-qwen" style="width:57.9%"></div><span class="val">57.9%</span></div>
+      <div class="axis"><span>0</span><span>25</span><span>50</span><span>75</span><span>100</span></div>
+    </div>
+  </div>
+  <div class="ft"><b>COMP8240</b><span>4 / 7</span></div>
+  <div class="cam"></div>
+</section>
+
+<!-- 5. New data -->
+<section>
+  <div class="hd"><h2>New data</h2></div>
+  <div class="x" style="left:72px; top:142px; width:360px">
+    <div class="tag">Existing</div>
+    <div class="name">SynthPAI</div>
+    <div style="font-size:15px; color:var(--ink-3)">Yukhymenko et al., NeurIPS 2024</div>
+    <div class="figs">
+      <div class="fig"><b>7,823</b><span>comments</span></div>
+      <div class="fig"><b>300</b><span>personas</span></div>
+    </div>
+    <p class="note">Human-reviewed labels, same attributes. <b>Challenge:</b> still synthetic, made by the judge's model family.</p>
+  </div>
+  <div class="x vr" style="left:480px; top:142px; width:728px; padding-left:44px">
+    <div class="tag yes">Constructing</div>
+    <div class="name" style="margin-bottom:16px">Perturbed copies of the 525</div>
+    <div class="ver"><span class="k">Original<br><span style="font-weight:500; letter-spacing:0; text-transform:none">example 18</span></span><p class="quote">"We have the enchanting gorges over at <mark>Rouge</mark>, where I love to walk…"</p></div>
+    <div class="ver"><span class="k">Anonymised</span><p class="quote">"We have the enchanting gorges over at <mark class="blank">[LOCATION]</mark>, where I love to walk…"</p></div>
+    <div class="ver"><span class="k">Paraphrased</span><p class="quote">"The gorges at Rouge are breathtaking, especially during leaf season…"</p></div>
+  </div>
+  <div class="x" style="left:72px; top:540px; width:820px; font-size:20px; line-height:1.55">
+    <b>Question:</b> is the model reasoning from evidence, or matching surface cues?<br>
+    <span style="color:var(--ink-3)"><b style="color:var(--ink-2)">Challenge:</b> an LLM rewrite can drop a clue, or leak one.</span>
+  </div>
+  <div class="ft"><b>COMP8240</b><span>5 / 7</span></div>
+  <div class="cam"></div>
+</section>
+
+<!-- 6. Progress -->
+<section>
+  <div class="hd"><h2>Construction progress</h2></div>
+  <div class="x" style="left:72px; top:140px">
+    <p class="cap" style="margin-left:248px">Qwen2.5-7B top-1, rules only, same 373 examples</p>
+    <div class="bars">
+      <div class="lbl">Original</div>
+      <div class="track"><div class="fill f-qwen" style="width:57.9%"></div><span class="val">57.9%</span></div>
+      <div class="lbl">Paraphrased</div>
+      <div class="track"><div class="fill f-qwen" style="width:50.1%; background:#6f9d93"></div><span class="val">50.1%<i>−7.8</i></span></div>
+      <div class="lbl">Anonymised</div>
+      <div class="track"><div class="fill f-qwen" style="width:39.9%; background:#a8c4bd"></div><span class="val">39.9%<i>−18.0</i></span></div>
+      <div class="axis"><span>0</span><span>25</span><span>50</span><span>75</span><span>100</span></div>
+    </div>
+  </div>
+  <div class="x prog">
+    <div class="ps"><div class="c"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8.5l3.2 3L13 4.5"/></svg></div>
+      <div class="s">Done</div><div class="t">Collection</div><div class="d">Both versions built, 525 each, rewritten with Qwen2.5-7B</div></div>
+    <div class="ps to-next"><div class="c"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8.5l3.2 3L13 4.5"/></svg></div>
+      <div class="s">Done</div><div class="t">Preprocessing</div><div class="d">Same loader and prompt as the baseline</div></div>
+    <div class="ps next"><div class="c"></div>
+      <div class="s">Next</div><div class="t">Annotation</div><div class="d">Labels carried over; spot-check rewrites by hand</div></div>
+  </div>
+  <div class="ft"><b>COMP8240</b><span>6 / 7</span></div>
+  <div class="cam"></div>
+</section>
+
+<!-- 7. Wrap-up -->
+<section>
+  <div class="hd"><h2>Where it stands</h2></div>
+  <div class="x cols">
+    <div><div class="tag yes">Reproduced</div><p>The paper's synthetic numbers, from the authors' own scores</p></div>
+    <div><div class="tag no">Found</div><p>About <b>15 points</b> depend on GPT-4 judging GPT-4</p></div>
+    <div><div class="tag">Next</div><p>Current OpenAI model with and without the judge, then SynthPAI</p></div>
+  </div>
+  <p class="x thanks">Thanks for watching.</p>
+  <div class="ft"><span>Code: <code>a2_baseline.py</code> · <code>a2_perturb.py</code> · <code>demo_one.py</code></span><span>7 / 7</span></div>
+  <div class="cam"></div>
+</section>
+
+<div id="live" aria-hidden="true"><video autoplay muted playsinline></video><span class="gone"></span></div>
+</div>
+<script>
+  const s = [...document.querySelectorAll('section')];
+  // motion only for a person watching: not under reduced motion, not for headless renderers (they screenshot after 200-300 ms)
+  if (!navigator.webdriver && !matchMedia('(prefers-reduced-motion: reduce)').matches) document.documentElement.classList.add('anim');
+  let i = Math.max(0, Math.min(s.length - 1, (parseInt(location.hash.slice(1)) || 1) - 1));
+  const show = () => { getSelection().removeAllRanges(); s.forEach((x, k) => x.classList.toggle('on', k === i)); location.hash = i + 1; };
+  const fit = () => { const k = Math.min(innerWidth / 1280, innerHeight / 720);
+    document.getElementById('deck').style.transform = `translate(-50%,-50%) scale(${k})`; };
+  addEventListener('keydown', e => {
+    if (e.key === 'Escape') { getSelection().removeAllRanges(); return; }
+    if (e.key === 'ArrowRight') i = Math.min(s.length - 1, i + 1);
+    else if (e.key === 'ArrowLeft') i = Math.max(0, i - 1);
+    else return;
+    e.preventDefault(); show(); });
+  addEventListener('resize', fit); fit(); show();
+  // the webcam corner, live: C toggles, V cycles cameras, M mirrors; remembered per browser
+  const live = document.getElementById('live'), vid = live.querySelector('video'), tip = live.querySelector('span');
+  const mem = (k, v) => { try { return v === undefined ? localStorage.getItem('deck.' + k) : localStorage.setItem('deck.' + k, v); } catch { return null; } };
+  let stream = null, tipT = 0;
+  const say = t => { tip.textContent = t; tip.classList.remove('gone'); clearTimeout(tipT); tipT = setTimeout(() => tip.classList.add('gone'), 1600); };
+  const stop = () => { if (stream) stream.getTracks().forEach(t => t.stop()); stream = null; vid.srcObject = null; live.classList.remove('on'); mem('cam', '0'); };
+  async function start(id) {
+    if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) return;
+    if (stream) stream.getTracks().forEach(t => t.stop());
+    try {
+      stream = await navigator.mediaDevices.getUserMedia({ audio: false, video: { ...(id ? { deviceId: { exact: id } } : {}), width: { ideal: 1920 }, height: { ideal: 1080 } } });
+    } catch (e) { if (id) return start(null); live.classList.add('on'); say('No camera: ' + e.name); return; }
+    vid.srcObject = stream; live.classList.add('on'); mem('cam', '1');
+    const t = stream.getVideoTracks()[0]; mem('camId', t.getSettings().deviceId || ''); say(t.label || 'Camera');
+  }
+  async function next() {
+    const cams = (await navigator.mediaDevices.enumerateDevices()).filter(d => d.kind === 'videoinput');
+    if (!cams.length) return say('No camera found');
+    const cur = stream && stream.getVideoTracks()[0].getSettings().deviceId, k = cams.findIndex(d => d.deviceId === cur);
+    start(cams[(k + 1) % cams.length].deviceId);
+  }
+  if (mem('mirror') === '1') live.classList.add('mirror');
+  addEventListener('keydown', e => {
+    if (e.ctrlKey || e.altKey || e.metaKey) return;
+    const k = e.key.toLowerCase();
+    if (k === 'c') stream ? stop() : start(mem('camId'));
+    else if (k === 'v') next();
+    else if (k === 'm') mem('mirror', live.classList.toggle('mirror') ? '1' : '0');
+  });
+  if (/[?&]cam=1/.test(location.search) || mem('cam') === '1') start(mem('camId'));
+</script>
+</body></html>
