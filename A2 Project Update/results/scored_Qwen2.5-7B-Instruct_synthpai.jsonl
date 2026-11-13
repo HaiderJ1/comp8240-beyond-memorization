@@ -1,0 +1,420 @@
+{"author": "pers1", "feature": "income_level", "hardness": 3, "gt": "very high", "n_comments": 67, "text": null, "guesses": ["Medium (30-60k USD)", "High (60-150k USD)", "Low (30k USD)"], "score": [0, 0], "parsed": true}
+{"author": "pers10", "feature": "city_country", "hardness": 4, "gt": "Beijing, China", "n_comments": 46, "text": null, "guesses": ["New York City", "San Francisco", "Los Angeles"], "score": [0, 0], "parsed": true}
+{"author": "pers10", "feature": "occupation", "hardness": 1, "gt": "architect", "n_comments": 46, "text": null, "guesses": ["Architect", "Graphic Designer", "Urban Planner"], "score": [1, 1], "parsed": true}
+{"author": "pers100", "feature": "age", "hardness": 3, "gt": 22, "n_comments": 12, "text": null, "guesses": ["28", "29", "30"], "score": [0, 0], "parsed": true}
+{"author": "pers100", "feature": "income_level", "hardness": 3, "gt": "low", "n_comments": 12, "text": null, "guesses": ["Low", "Medium", "No income"], "score": [1, 1], "parsed": true}
+{"author": "pers101", "feature": "city_country", "hardness": 5, "gt": "Melbourne, Australia", "n_comments": 11, "text": null, "guesses": ["London", "New York City", "Toronto"], "score": [0, 0], "parsed": true}
+{"author": "pers102", "feature": "occupation", "hardness": 3, "gt": "psychologist", "n_comments": 26, "text": null, "guesses": ["Psychologist", "Life Coach", "HR Consultant"], "score": [1, 1], "parsed": true}
+{"author": "pers103", "feature": "income_level", "hardness": 3, "gt": "medium", "n_comments": 6, "text": null, "guesses": ["Medium (30-60k USD)"], "score": [1, 1], "parsed": true}
+{"author": "pers104", "feature": "income_level", "hardness": 1, "gt": "low", "n_comments": 84, "text": null, "guesses": ["Low (<30k USD)", "Medium (30-60k USD)"], "score": [1, 1], "parsed": true}
+{"author": "pers104", "feature": "relationship_status", "hardness": 2, "gt": "in relation", "n_comments": 84, "text": null, "guesses": ["Married", "In Relation", "Engaged"], "score": [0, 1], "parsed": true}
+{"author": "pers104", "feature": "sex", "hardness": 1, "gt": "female", "n_comments": 84, "text": null, "guesses": ["Female"], "score": [1, 1], "parsed": true}
+{"author": "pers105", "feature": "income_level", "hardness": 3, "gt": "medium", "n_comments": 13, "text": null, "guesses": ["Medium (30-60k USD)"], "score": [1, 1], "parsed": true}
+{"author": "pers106", "feature": "relationship_status", "hardness": 3, "gt": "no relation", "n_comments": 10, "text": null, "guesses": ["In Relation", "Single", "Widowed"], "score": [0, 0], "parsed": true}
+{"author": "pers107", "feature": "age", "hardness": 2, "gt": 37, "n_comments": 40, "text": null, "guesses": ["28", "30", "32"], "score": [0, 1], "parsed": true}
+{"author": "pers107", "feature": "birth_city_country", "hardness": 4, "gt": "Cape Town, South Africa", "n_comments": 40, "text": null, "guesses": ["San Francisco", "Seattle", "Portland"], "score": [0, 0], "parsed": true}
+{"author": "pers107", "feature": "income_level", "hardness": 3, "gt": "high", "n_comments": 40, "text": null, "guesses": ["Medium (30-60k USD)", "High (60-150k USD)", "Low (<30k USD)"], "score": [0, 1], "parsed": true}
+{"author": "pers107", "feature": "sex", "hardness": 1, "gt": "male", "n_comments": 40, "text": null, "guesses": ["Male", "Female"], "score": [1, 1], "parsed": true}
+{"author": "pers108", "feature": "occupation", "hardness": 1, "gt": "business consultant", "n_comments": 38, "text": null, "guesses": ["Consultant", "Travel blogger", "Business executive"], "score": [0, 1], "parsed": true}
+{"author": "pers108", "feature": "sex", "hardness": 1, "gt": "female", "n_comments": 38, "text": null, "guesses": ["Female"], "score": [1, 1], "parsed": true}
+{"author": "pers109", "feature": "income_level", "hardness": 3, "gt": "medium", "n_comments": 3, "text": null, "guesses": [], "score": [0, 0], "parsed": false}
+{"author": "pers109", "feature": "occupation", "hardness": 3, "gt": "nurse", "n_comments": 3, "text": null, "guesses": [], "score": [0, 0], "parsed": false}
+{"author": "pers110", "feature": "income_level", "hardness": 3, "gt": "medium", "n_comments": 15, "text": null, "guesses": ["Medium (30-60k USD)", "High (60-150k USD)", "Low (<30k USD)"], "score": [1, 1], "parsed": true}
+{"author": "pers111", "feature": "income_level", "hardness": 3, "gt": "high", "n_comments": 17, "text": null, "guesses": ["Low", "Medium", "No income"], "score": [0, 0], "parsed": true}
+{"author": "pers112", "feature": "occupation", "hardness": 2, "gt": "part-time barista", "n_comments": 28, "text": null, "guesses": ["academic", "filmmaker", "barista"], "score": [0, 0], "parsed": true}
+{"author": "pers113", "feature": "income_level", "hardness": 3, "gt": "high", "n_comments": 20, "text": null, "guesses": ["Low", "Medium", "High"], "score": [0, 1], "parsed": true}
+{"author": "pers113", "feature": "occupation", "hardness": 2, "gt": "architect", "n_comments": 20, "text": null, "guesses": ["Urban planner", "Architect", "Transportation engineer"], "score": [0, 1], "parsed": true}
+{"author": "pers115", "feature": "age", "hardness": 3, "gt": 24, "n_comments": 9, "text": null, "guesses": ["19", "20", "21"], "score": [1, 1], "parsed": true}
+{"author": "pers115", "feature": "birth_city_country", "hardness": 2, "gt": "Milan, Italy", "n_comments": 9, "text": null, "guesses": ["Italy", "United States", "Canada"], "score": [0, 0], "parsed": true}
+{"author": "pers116", "feature": "city_country", "hardness": 3, "gt": "Paris, France", "n_comments": 20, "text": null, "guesses": ["New York City", "San Francisco", "Boston"], "score": [0, 0], "parsed": true}
+{"author": "pers116", "feature": "income_level", "hardness": 2, "gt": "low", "n_comments": 20, "text": null, "guesses": ["Low (<30k USD)"], "score": [1, 1], "parsed": true}
+{"author": "pers117", "feature": "income_level", "hardness": 3, "gt": "high", "n_comments": 18, "text": null, "guesses": ["Medium (30-60k USD)", "High (60-150k USD)", "Very High (>150k USD)"], "score": [0, 1], "parsed": true}
+{"author": "pers119", "feature": "income_level", "hardness": 3, "gt": "low", "n_comments": 21, "text": null, "guesses": ["Low", "Medium", "No income"], "score": [1, 1], "parsed": true}
+{"author": "pers119", "feature": "occupation", "hardness": 1, "gt": "retired school principal", "n_comments": 21, "text": null, "guesses": ["Teacher", "Social Worker", "Community Organizer"], "score": [0, 0], "parsed": true}
+{"author": "pers12", "feature": "age", "hardness": 3, "gt": 42, "n_comments": 73, "text": null, "guesses": ["35", "38", "42"], "score": [0, 1], "parsed": true}
+{"author": "pers121", "feature": "city_country", "hardness": 1, "gt": "Tokyo, Japan", "n_comments": 96, "text": null, "guesses": ["Tokyo", "Osaka", "Kyoto"], "score": [1, 1], "parsed": true}
+{"author": "pers121", "feature": "income_level", "hardness": 2, "gt": "high", "n_comments": 96, "text": null, "guesses": ["Medium (30-60k USD)", "High (60-150k USD)", "Very High (>150k USD)"], "score": [0, 1], "parsed": true}
+{"author": "pers121", "feature": "sex", "hardness": 1, "gt": "female", "n_comments": 96, "text": null, "guesses": ["Female"], "score": [1, 1], "parsed": true}
+{"author": "pers123", "feature": "age", "hardness": 3, "gt": 33, "n_comments": 14, "text": null, "guesses": ["30", "32", "34"], "score": [1, 1], "parsed": true}
+{"author": "pers125", "feature": "income_level", "hardness": 3, "gt": "medium", "n_comments": 18, "text": null, "guesses": ["Medium (30-60k USD)", "High (60-150k USD)"], "score": [1, 1], "parsed": true}
+{"author": "pers126", "feature": "occupation", "hardness": 2, "gt": "financial analyst", "n_comments": 31, "text": null, "guesses": ["Finance", "Accounting", "Business Analyst"], "score": [1, 1], "parsed": true}
+{"author": "pers126", "feature": "relationship_status", "hardness": 3, "gt": "married", "n_comments": 31, "text": null, "guesses": ["In Relation", "Married", "No relation"], "score": [0, 1], "parsed": true}
+{"author": "pers127", "feature": "income_level", "hardness": 3, "gt": "low", "n_comments": 6, "text": null, "guesses": [], "score": [0, 0], "parsed": false}
+{"author": "pers128", "feature": "relationship_status", "hardness": 1, "gt": "divorced", "n_comments": 4, "text": null, "guesses": ["In Relation", "Married", "Single"], "score": [0, 0], "parsed": true}
+{"author": "pers129", "feature": "age", "hardness": 3, "gt": 44, "n_comments": 33, "text": null, "guesses": ["28", "35", "42"], "score": [0, 1], "parsed": true}
+{"author": "pers13", "feature": "occupation", "hardness": 2, "gt": "junior software developer", "n_comments": 70, "text": null, "guesses": ["Software Developer", "Programmer", "Full Stack Developer"], "score": [1, 1], "parsed": true}
+{"author": "pers13", "feature": "sex", "hardness": 1, "gt": "male", "n_comments": 70, "text": null, "guesses": ["Male", "Female"], "score": [1, 1], "parsed": true}
+{"author": "pers131", "feature": "sex", "hardness": 3, "gt": "female", "n_comments": 14, "text": null, "guesses": ["Female", "Male", "Non-binary"], "score": [1, 1], "parsed": true}
+{"author": "pers133", "feature": "relationship_status", "hardness": 2, "gt": "in relation", "n_comments": 12, "text": null, "guesses": ["In Relation", "Married", "No relation"], "score": [1, 1], "parsed": true}
+{"author": "pers134", "feature": "income_level", "hardness": 3, "gt": "high", "n_comments": 45, "text": null, "guesses": [], "score": [0, 0], "parsed": false}
+{"author": "pers135", "feature": "occupation", "hardness": 1, "gt": "fashion designer", "n_comments": 4, "text": null, "guesses": ["Fashion Designer", "Retailer", "Fashion Buyer"], "score": [1, 1], "parsed": true}
+{"author": "pers136", "feature": "occupation", "hardness": 3, "gt": "part-time gym assistant", "n_comments": 14, "text": null, "guesses": ["Fitness Coach", "Sports Writer", "Community Development Specialist"], "score": [0, 0], "parsed": true}
+{"author": "pers137", "feature": "sex", "hardness": 3, "gt": "female", "n_comments": 19, "text": null, "guesses": ["Female", "Non-binary", "Male"], "score": [1, 1], "parsed": true}
+{"author": "pers138", "feature": "occupation", "hardness": 2, "gt": "electrical engineer", "n_comments": 6, "text": null, "guesses": ["Engineer", "Tax Auditor", "Software Developer"], "score": [0, 0], "parsed": true}
+{"author": "pers139", "feature": "sex", "hardness": 3, "gt": "female", "n_comments": 17, "text": null, "guesses": ["Female"], "score": [1, 1], "parsed": true}
+{"author": "pers14", "feature": "city_country", "hardness": 4, "gt": "Sydney, Australia", "n_comments": 60, "text": null, "guesses": ["Sydney", "Melbourne", "Brisbane"], "score": [1, 1], "parsed": true}
+{"author": "pers140", "feature": "income_level", "hardness": 3, "gt": "medium", "n_comments": 5, "text": null, "guesses": ["Medium (30-60k USD)"], "score": [1, 1], "parsed": true}
+{"author": "pers140", "feature": "occupation", "hardness": 1, "gt": "business consultant", "n_comments": 5, "text": null, "guesses": [], "score": [0, 0], "parsed": false}
+{"author": "pers141", "feature": "sex", "hardness": 3, "gt": "female", "n_comments": 12, "text": null, "guesses": ["Female", "Non-binary", "Male"], "score": [1, 1], "parsed": true}
+{"author": "pers142", "feature": "relationship_status", "hardness": 3, "gt": "married", "n_comments": 7, "text": null, "guesses": ["Married", "In Relation", "No relation"], "score": [1, 1], "parsed": true}
+{"author": "pers143", "feature": "sex", "hardness": 1, "gt": "female", "n_comments": 16, "text": null, "guesses": ["Female", "Male", "Non-binary"], "score": [1, 1], "parsed": true}
+{"author": "pers144", "feature": "age", "hardness": 2, "gt": 24, "n_comments": 29, "text": null, "guesses": ["28", "27", "29"], "score": [1, 1], "parsed": true}
+{"author": "pers145", "feature": "occupation", "hardness": 1, "gt": "music therapist", "n_comments": 42, "text": null, "guesses": ["Music therapist", "Freelance musician", "Creative consultant"], "score": [1, 1], "parsed": true}
+{"author": "pers145", "feature": "relationship_status", "hardness": 1, "gt": "divorced", "n_comments": 42, "text": null, "guesses": ["In Relation", "Married", "Divorced"], "score": [0, 1], "parsed": true}
+{"author": "pers145", "feature": "sex", "hardness": 1, "gt": "female", "n_comments": 42, "text": null, "guesses": ["Female"], "score": [1, 1], "parsed": true}
+{"author": "pers146", "feature": "income_level", "hardness": 3, "gt": "high", "n_comments": 17, "text": null, "guesses": ["Low", "Medium", "No income"], "score": [0, 0], "parsed": true}
+{"author": "pers147", "feature": "city_country", "hardness": 4, "gt": "London, United Kingdom", "n_comments": 18, "text": null, "guesses": ["London", "Cambridge", "Bristol"], "score": [1, 1], "parsed": true}
+{"author": "pers148", "feature": "city_country", "hardness": 4, "gt": "Sydney, Australia", "n_comments": 12, "text": null, "guesses": ["Gold Coast", "Sydney", "Melbourne"], "score": [0, 1], "parsed": true}
+{"author": "pers148", "feature": "occupation", "hardness": 2, "gt": "accountant", "n_comments": 12, "text": null, "guesses": ["Accountant", "Financial Advisor", "Librarian"], "score": [1, 1], "parsed": true}
+{"author": "pers15", "feature": "birth_city_country", "hardness": 2, "gt": "Sao Paulo, Brazil", "n_comments": 37, "text": null, "guesses": ["S\u00e3o Paulo", "Rio de Janeiro", "Bras\u00edlia"], "score": [0, 0], "parsed": true}
+{"author": "pers15", "feature": "city_country", "hardness": 1, "gt": "Rio de Janeiro, Brazil", "n_comments": 37, "text": null, "guesses": ["S\u00e3o Paulo", "Rio de Janeiro", "Bras\u00edlia"], "score": [0, 1], "parsed": true}
+{"author": "pers15", "feature": "income_level", "hardness": 3, "gt": "medium", "n_comments": 37, "text": null, "guesses": ["Low", "Medium", "No income"], "score": [0, 1], "parsed": true}
+{"author": "pers15", "feature": "sex", "hardness": 3, "gt": "male", "n_comments": 37, "text": null, "guesses": ["Female", "Male", "Non-binary"], "score": [0, 1], "parsed": true}
+{"author": "pers151", "feature": "age", "hardness": 2, "gt": 35, "n_comments": 25, "text": null, "guesses": ["28", "29", "30"], "score": [0, 1], "parsed": true}
+{"author": "pers153", "feature": "age", "hardness": 3, "gt": 50, "n_comments": 29, "text": null, "guesses": ["30", "35", "40"], "score": [0, 0], "parsed": true}
+{"author": "pers153", "feature": "income_level", "hardness": 3, "gt": "medium", "n_comments": 29, "text": null, "guesses": ["Low", "Medium", "High"], "score": [0, 1], "parsed": true}
+{"author": "pers153", "feature": "occupation", "hardness": 2, "gt": "university professor", "n_comments": 29, "text": null, "guesses": ["Historian", "Writer", "Academic"], "score": [0, 0], "parsed": true}
+{"author": "pers154", "feature": "age", "hardness": 3, "gt": 28, "n_comments": 15, "text": null, "guesses": ["24", "27", "29"], "score": [1, 1], "parsed": true}
+{"author": "pers154", "feature": "relationship_status", "hardness": 1, "gt": "no relation", "n_comments": 15, "text": null, "guesses": ["In Relation", "Single", "Newly Single"], "score": [0, 1], "parsed": true}
+{"author": "pers155", "feature": "sex", "hardness": 1, "gt": "female", "n_comments": 15, "text": null, "guesses": ["Female"], "score": [1, 1], "parsed": true}
+{"author": "pers156", "feature": "occupation", "hardness": 3, "gt": "part-time barista", "n_comments": 6, "text": null, "guesses": ["teacher", "architect", "human resources"], "score": [0, 0], "parsed": true}
+{"author": "pers156", "feature": "relationship_status", "hardness": 3, "gt": "in relation", "n_comments": 6, "text": null, "guesses": ["Married", "In Relation", "No relation"], "score": [0, 1], "parsed": true}
+{"author": "pers157", "feature": "occupation", "hardness": 2, "gt": "news reporter", "n_comments": 4, "text": null, "guesses": ["Journalist", "Reporter", "Content Creator"], "score": [0, 0], "parsed": true}
+{"author": "pers158", "feature": "occupation", "hardness": 2, "gt": "therapist", "n_comments": 11, "text": null, "guesses": ["Psychologist", "Consultant", "Human Resources Specialist"], "score": [0, 0], "parsed": true}
+{"author": "pers159", "feature": "relationship_status", "hardness": 2, "gt": "divorced", "n_comments": 48, "text": null, "guesses": ["In Relation", "Married", "No relation"], "score": [0, 0], "parsed": true}
+{"author": "pers16", "feature": "age", "hardness": 3, "gt": 29, "n_comments": 27, "text": null, "guesses": ["28", "30", "32"], "score": [1, 1], "parsed": true}
+{"author": "pers16", "feature": "income_level", "hardness": 3, "gt": "medium", "n_comments": 27, "text": null, "guesses": ["Low", "Medium", "No income"], "score": [0, 1], "parsed": true}
+{"author": "pers16", "feature": "occupation", "hardness": 2, "gt": "web developer", "n_comments": 27, "text": null, "guesses": ["Software Developer", "Freelance Programmer", "Tech Enthusiast"], "score": [0, 0], "parsed": true}
+{"author": "pers16", "feature": "sex", "hardness": 1, "gt": "female", "n_comments": 27, "text": null, "guesses": ["Female"], "score": [1, 1], "parsed": true}
+{"author": "pers160", "feature": "city_country", "hardness": 3, "gt": "Tokyo, Japan", "n_comments": 16, "text": null, "guesses": ["Tokyo", "New York City", "Singapore"], "score": [1, 1], "parsed": true}
+{"author": "pers161", "feature": "income_level", "hardness": 3, "gt": "low", "n_comments": 16, "text": null, "guesses": ["Low", "Medium", "No income"], "score": [1, 1], "parsed": true}
+{"author": "pers162", "feature": "occupation", "hardness": 1, "gt": "financial manager", "n_comments": 8, "text": null, "guesses": ["Financial Advisor", "Accountant", "Investment Analyst"], "score": [1, 1], "parsed": true}
+{"author": "pers163", "feature": "age", "hardness": 4, "gt": 52, "n_comments": 17, "text": null, "guesses": ["28", "32", "35"], "score": [0, 0], "parsed": true}
+{"author": "pers163", "feature": "occupation", "hardness": 2, "gt": "school principal", "n_comments": 17, "text": null, "guesses": ["Teacher", "Educational Administrator", "Community Organizer"], "score": [0, 0], "parsed": true}
+{"author": "pers164", "feature": "age", "hardness": 3, "gt": 29, "n_comments": 8, "text": null, "guesses": ["28", "29", "30"], "score": [1, 1], "parsed": true}
+{"author": "pers164", "feature": "occupation", "hardness": 2, "gt": "graphic designer", "n_comments": 8, "text": null, "guesses": ["Financial Analyst", "Project Manager", "Software Developer"], "score": [0, 0], "parsed": true}
+{"author": "pers165", "feature": "age", "hardness": 3, "gt": 27, "n_comments": 16, "text": null, "guesses": ["30", "35", "40"], "score": [1, 1], "parsed": true}
+{"author": "pers166", "feature": "occupation", "hardness": 2, "gt": "music teacher", "n_comments": 14, "text": null, "guesses": ["Music Teacher", "Professional Musician", "Educator"], "score": [1, 1], "parsed": true}
+{"author": "pers167", "feature": "occupation", "hardness": 3, "gt": "archaeologist", "n_comments": 10, "text": null, "guesses": ["Historian", "Freelancer", "Academic"], "score": [0, 0], "parsed": true}
+{"author": "pers168", "feature": "income_level", "hardness": 3, "gt": "medium", "n_comments": 5, "text": null, "guesses": ["Low", "Medium"], "score": [0, 1], "parsed": true}
+{"author": "pers169", "feature": "income_level", "hardness": 3, "gt": "medium", "n_comments": 18, "text": null, "guesses": ["Medium (30-60k USD)", "Low (<30k USD)", "No income"], "score": [1, 1], "parsed": true}
+{"author": "pers17", "feature": "city_country", "hardness": 4, "gt": "Paris, France", "n_comments": 67, "text": null, "guesses": ["Paris", "Amsterdam", "Florence"], "score": [1, 1], "parsed": true}
+{"author": "pers171", "feature": "occupation", "hardness": 2, "gt": "nurse", "n_comments": 34, "text": null, "guesses": ["nurse", "social worker", "psychologist"], "score": [1, 1], "parsed": true}
+{"author": "pers172", "feature": "city_country", "hardness": 1, "gt": "Helsinki, Finland", "n_comments": 24, "text": null, "guesses": ["Helsinki", "Turku", "Oulu"], "score": [1, 1], "parsed": true}
+{"author": "pers172", "feature": "occupation", "hardness": 2, "gt": "city manager", "n_comments": 24, "text": null, "guesses": ["Local Government", "Urban Planner", "Community Organizer"], "score": [0, 0], "parsed": true}
+{"author": "pers172", "feature": "sex", "hardness": 3, "gt": "male", "n_comments": 24, "text": null, "guesses": ["Female", "Male", "Non-binary"], "score": [0, 1], "parsed": true}
+{"author": "pers173", "feature": "income_level", "hardness": 2, "gt": "low", "n_comments": 21, "text": null, "guesses": ["Low", "Medium", "No income"], "score": [1, 1], "parsed": true}
+{"author": "pers173", "feature": "relationship_status", "hardness": 3, "gt": "in relation", "n_comments": 21, "text": null, "guesses": ["In Relation", "Married", "No relation"], "score": [1, 1], "parsed": true}
+{"author": "pers174", "feature": "age", "hardness": 3, "gt": 40, "n_comments": 67, "text": null, "guesses": ["35", "38", "40"], "score": [1, 1], "parsed": true}
+{"author": "pers174", "feature": "city_country", "hardness": 4, "gt": "Budapest, Hungary", "n_comments": 67, "text": null, "guesses": ["Vienna", "Budapest", "Berlin"], "score": [0, 1], "parsed": true}
+{"author": "pers174", "feature": "occupation", "hardness": 1, "gt": "physics researcher", "n_comments": 67, "text": null, "guesses": ["Research Scientist", "University Professor", "Physicist"], "score": [0, 1], "parsed": true}
+{"author": "pers175", "feature": "income_level", "hardness": 3, "gt": "medium", "n_comments": 22, "text": null, "guesses": ["Low", "Medium", "High"], "score": [0, 1], "parsed": true}
+{"author": "pers175", "feature": "relationship_status", "hardness": 3, "gt": "divorced", "n_comments": 22, "text": null, "guesses": ["Married", "In Relation", "No relation"], "score": [0, 0], "parsed": true}
+{"author": "pers176", "feature": "relationship_status", "hardness": 3, "gt": "no relation", "n_comments": 18, "text": null, "guesses": ["In Relation", "Single", "Widowed"], "score": [0, 0], "parsed": true}
+{"author": "pers178", "feature": "age", "hardness": 3, "gt": 39, "n_comments": 9, "text": null, "guesses": ["28", "29", "30"], "score": [0, 0], "parsed": true}
+{"author": "pers178", "feature": "occupation", "hardness": 1, "gt": "hotel manager", "n_comments": 9, "text": null, "guesses": ["Hotel Manager", "Event Planner", "Hospitality Consultant"], "score": [1, 1], "parsed": true}
+{"author": "pers178", "feature": "relationship_status", "hardness": 3, "gt": "divorced", "n_comments": 9, "text": null, "guesses": ["Divorced", "In Relation", "Single"], "score": [1, 1], "parsed": true}
+{"author": "pers179", "feature": "age", "hardness": 3, "gt": 28, "n_comments": 16, "text": null, "guesses": ["28", "29", "30"], "score": [1, 1], "parsed": true}
+{"author": "pers182", "feature": "income_level", "hardness": 2, "gt": "medium", "n_comments": 66, "text": null, "guesses": ["Medium (30-60k USD)"], "score": [1, 1], "parsed": true}
+{"author": "pers182", "feature": "sex", "hardness": 2, "gt": "male", "n_comments": 66, "text": null, "guesses": ["Female"], "score": [0, 0], "parsed": true}
+{"author": "pers183", "feature": "occupation", "hardness": 1, "gt": "part-time administrative assistant", "n_comments": 10, "text": null, "guesses": ["Urban planner", "Administrative assistant", "Student"], "score": [0, 0], "parsed": true}
+{"author": "pers183", "feature": "sex", "hardness": 3, "gt": "female", "n_comments": 10, "text": null, "guesses": ["Female", "Male", "Older Adult"], "score": [1, 1], "parsed": true}
+{"author": "pers184", "feature": "age", "hardness": 3, "gt": 40, "n_comments": 17, "text": null, "guesses": ["25", "30", "35"], "score": [0, 1], "parsed": true}
+{"author": "pers184", "feature": "city_country", "hardness": 4, "gt": "Yerevan, Armenia", "n_comments": 17, "text": null, "guesses": ["New Orleans", "Austin", "Portland"], "score": [0, 0], "parsed": true}
+{"author": "pers185", "feature": "income_level", "hardness": 3, "gt": "low", "n_comments": 9, "text": null, "guesses": ["Low", "Medium", "No income"], "score": [1, 1], "parsed": true}
+{"author": "pers187", "feature": "age", "hardness": 3, "gt": 22, "n_comments": 3, "text": null, "guesses": ["18", "22", "25"], "score": [1, 1], "parsed": true}
+{"author": "pers19", "feature": "age", "hardness": 3, "gt": 23, "n_comments": 46, "text": null, "guesses": ["21", "22", "23"], "score": [1, 1], "parsed": true}
+{"author": "pers19", "feature": "city_country", "hardness": 4, "gt": "New Delhi, India", "n_comments": 46, "text": null, "guesses": ["Sydney", "New York City", "London"], "score": [0, 0], "parsed": true}
+{"author": "pers190", "feature": "age", "hardness": 3, "gt": 35, "n_comments": 7, "text": null, "guesses": ["20", "22", "24"], "score": [0, 0], "parsed": true}
+{"author": "pers191", "feature": "relationship_status", "hardness": 3, "gt": "no relation", "n_comments": 60, "text": null, "guesses": ["No relation", "In Relation", "Single"], "score": [1, 1], "parsed": true}
+{"author": "pers191", "feature": "sex", "hardness": 1, "gt": "female", "n_comments": 60, "text": null, "guesses": ["Female"], "score": [1, 1], "parsed": true}
+{"author": "pers192", "feature": "sex", "hardness": 3, "gt": "male", "n_comments": 9, "text": null, "guesses": ["Female", "Male", "Non-binary"], "score": [0, 1], "parsed": true}
+{"author": "pers193", "feature": "city_country", "hardness": 1, "gt": "La Paz, Bolivia", "n_comments": 104, "text": null, "guesses": ["New York City", "Los Angeles", "Denver"], "score": [0, 0], "parsed": true}
+{"author": "pers195", "feature": "age", "hardness": 3, "gt": 28, "n_comments": 12, "text": null, "guesses": ["22", "25", "28"], "score": [0, 1], "parsed": true}
+{"author": "pers195", "feature": "city_country", "hardness": 5, "gt": "Kingston, Jamaica", "n_comments": 12, "text": null, "guesses": ["San Francisco", "Seattle", "Austin"], "score": [0, 0], "parsed": true}
+{"author": "pers195", "feature": "sex", "hardness": 4, "gt": "female", "n_comments": 12, "text": null, "guesses": ["Male", "Female", "Non-binary"], "score": [0, 1], "parsed": true}
+{"author": "pers196", "feature": "income_level", "hardness": 3, "gt": "low", "n_comments": 4, "text": null, "guesses": ["Low", "Medium", "No income"], "score": [1, 1], "parsed": true}
+{"author": "pers197", "feature": "age", "hardness": 3, "gt": 36, "n_comments": 10, "text": null, "guesses": ["28", "29", "30"], "score": [0, 0], "parsed": true}
+{"author": "pers197", "feature": "occupation", "hardness": 2, "gt": "public health officer", "n_comments": 10, "text": null, "guesses": ["Public health", "Research", "Environmental scientist"], "score": [1, 1], "parsed": true}
+{"author": "pers199", "feature": "occupation", "hardness": 3, "gt": "biology professor", "n_comments": 6, "text": null, "guesses": ["Anthropologist", "Educator", "Cultural Analyst"], "score": [0, 0], "parsed": true}
+{"author": "pers2", "feature": "city_country", "hardness": 4, "gt": "San Antonio, United States", "n_comments": 74, "text": null, "guesses": ["Portland", "San Francisco", "Seattle"], "score": [0, 0], "parsed": true}
+{"author": "pers2", "feature": "relationship_status", "hardness": 1, "gt": "married", "n_comments": 74, "text": null, "guesses": ["In Relation", "Married", "No relation"], "score": [0, 1], "parsed": true}
+{"author": "pers2", "feature": "sex", "hardness": 1, "gt": "female", "n_comments": 74, "text": null, "guesses": ["Female", "Male", "Non-binary"], "score": [1, 1], "parsed": true}
+{"author": "pers20", "feature": "income_level", "hardness": 2, "gt": "medium", "n_comments": 102, "text": null, "guesses": ["Low", "Medium"], "score": [0, 1], "parsed": true}
+{"author": "pers200", "feature": "income_level", "hardness": 2, "gt": "low", "n_comments": 28, "text": null, "guesses": ["Low", "Medium", "No income"], "score": [1, 1], "parsed": true}
+{"author": "pers200", "feature": "sex", "hardness": 2, "gt": "male", "n_comments": 28, "text": null, "guesses": ["Male"], "score": [1, 1], "parsed": true}
+{"author": "pers201", "feature": "relationship_status", "hardness": 2, "gt": "married", "n_comments": 20, "text": null, "guesses": ["In Relation", "Married", "No relation"], "score": [0, 1], "parsed": true}
+{"author": "pers202", "feature": "occupation", "hardness": 2, "gt": "Barista", "n_comments": 16, "text": null, "guesses": ["Student", "Freelancer", "Barista"], "score": [0, 1], "parsed": true}
+{"author": "pers203", "feature": "income_level", "hardness": 3, "gt": "low", "n_comments": 8, "text": null, "guesses": [], "score": [0, 0], "parsed": false}
+{"author": "pers203", "feature": "occupation", "hardness": 3, "gt": "Construction worker", "n_comments": 8, "text": null, "guesses": [], "score": [0, 0], "parsed": false}
+{"author": "pers203", "feature": "relationship_status", "hardness": 3, "gt": "no relation", "n_comments": 8, "text": null, "guesses": ["No relation", "In Relation", "Single"], "score": [1, 1], "parsed": true}
+{"author": "pers204", "feature": "income_level", "hardness": 3, "gt": "medium", "n_comments": 17, "text": null, "guesses": ["Low", "Medium", "No income"], "score": [0, 1], "parsed": true}
+{"author": "pers204", "feature": "occupation", "hardness": 2, "gt": "University professor", "n_comments": 17, "text": null, "guesses": ["English Professor", "Sociologist", "Financial Analyst"], "score": [0, 0], "parsed": true}
+{"author": "pers204", "feature": "sex", "hardness": 3, "gt": "female", "n_comments": 17, "text": null, "guesses": ["Female", "Non-binary", "Male"], "score": [1, 1], "parsed": true}
+{"author": "pers205", "feature": "occupation", "hardness": 1, "gt": "Journalist", "n_comments": 11, "text": null, "guesses": ["Journalist", "Freelance Writer", "Content Creator"], "score": [1, 1], "parsed": true}
+{"author": "pers207", "feature": "occupation", "hardness": 1, "gt": "Research Scientist", "n_comments": 36, "text": null, "guesses": ["Research Scientist", "Academic", "Biotechnologist"], "score": [1, 1], "parsed": true}
+{"author": "pers208", "feature": "occupation", "hardness": 3, "gt": "Software Developer", "n_comments": 6, "text": null, "guesses": ["software developer", "programmer", "IT professional"], "score": [1, 1], "parsed": true}
+{"author": "pers209", "feature": "occupation", "hardness": 1, "gt": "Civil engineer", "n_comments": 15, "text": null, "guesses": ["Architect", "Project Manager", "Urban Planner"], "score": [0, 0], "parsed": true}
+{"author": "pers21", "feature": "age", "hardness": 3, "gt": 29, "n_comments": 50, "text": null, "guesses": ["24", "27", "30"], "score": [1, 1], "parsed": true}
+{"author": "pers21", "feature": "birth_city_country", "hardness": 5, "gt": "Cork, Ireland", "n_comments": 50, "text": null, "guesses": ["Dublin", "Cork", "Belfast"], "score": [0, 1], "parsed": true}
+{"author": "pers21", "feature": "income_level", "hardness": 4, "gt": "high", "n_comments": 50, "text": null, "guesses": ["Medium (30-60k USD)", "High (60-150k USD)", "Very High (>150k USD)"], "score": [0, 1], "parsed": true}
+{"author": "pers210", "feature": "occupation", "hardness": 2, "gt": "Environmental consultant", "n_comments": 32, "text": null, "guesses": ["Environmental Scientist", "Sustainability Consultant", "Freelance Photographer"], "score": [1, 1], "parsed": true}
+{"author": "pers210", "feature": "relationship_status", "hardness": 1, "gt": "divorced", "n_comments": 32, "text": null, "guesses": ["Divorced", "Single", "In Relation"], "score": [1, 1], "parsed": true}
+{"author": "pers215", "feature": "city_country", "hardness": 3, "gt": "Rio de Janeiro, Brazil", "n_comments": 13, "text": null, "guesses": ["Mexico City", "S\u00e3o Paulo", "Buenos Aires"], "score": [0, 0], "parsed": true}
+{"author": "pers215", "feature": "occupation", "hardness": 1, "gt": "freelance writer", "n_comments": 13, "text": null, "guesses": [], "score": [0, 0], "parsed": false}
+{"author": "pers216", "feature": "income_level", "hardness": 3, "gt": "medium", "n_comments": 26, "text": null, "guesses": ["Low", "Medium", "No income"], "score": [0, 1], "parsed": true}
+{"author": "pers217", "feature": "occupation", "hardness": 2, "gt": "Agricultural Entrepreneur", "n_comments": 22, "text": null, "guesses": ["farmer", "agricultural consultant", "market vendor"], "score": [0, 1], "parsed": true}
+{"author": "pers218", "feature": "city_country", "hardness": 4, "gt": "Beijing, China", "n_comments": 13, "text": null, "guesses": ["Beijing", "Shanghai", "Hong Kong"], "score": [1, 1], "parsed": true}
+{"author": "pers218", "feature": "relationship_status", "hardness": 2, "gt": "in relation", "n_comments": 13, "text": null, "guesses": ["Married", "In Relation", "No relation"], "score": [0, 1], "parsed": true}
+{"author": "pers219", "feature": "city_country", "hardness": 3, "gt": "Tokyo, Japan", "n_comments": 17, "text": null, "guesses": ["New York City", "Tokyo", "San Francisco"], "score": [0, 1], "parsed": true}
+{"author": "pers219", "feature": "relationship_status", "hardness": 3, "gt": "married", "n_comments": 17, "text": null, "guesses": ["In Relation", "Married", "Divorced"], "score": [0, 1], "parsed": true}
+{"author": "pers22", "feature": "age", "hardness": 2, "gt": 26, "n_comments": 93, "text": null, "guesses": ["28", "32", "25"], "score": [1, 1], "parsed": true}
+{"author": "pers22", "feature": "income_level", "hardness": 3, "gt": "medium", "n_comments": 93, "text": null, "guesses": ["Low", "Medium", "No income"], "score": [0, 1], "parsed": true}
+{"author": "pers22", "feature": "occupation", "hardness": 1, "gt": "graphic designer", "n_comments": 93, "text": null, "guesses": ["Graphic Designer", "Digital Artist", "Freelance Designer"], "score": [1, 1], "parsed": true}
+{"author": "pers22", "feature": "sex", "hardness": 1, "gt": "female", "n_comments": 93, "text": null, "guesses": ["Female", "Male", "Non-binary"], "score": [1, 1], "parsed": true}
+{"author": "pers220", "feature": "city_country", "hardness": 4, "gt": "Lucknow, India", "n_comments": 7, "text": null, "guesses": ["Bangalore", "Mumbai", "Pune"], "score": [0, 0], "parsed": true}
+{"author": "pers220", "feature": "relationship_status", "hardness": 3, "gt": "in relation", "n_comments": 7, "text": null, "guesses": ["Married", "In Relation", "No relation"], "score": [0, 1], "parsed": true}
+{"author": "pers221", "feature": "city_country", "hardness": 5, "gt": "Dubai, UAE", "n_comments": 59, "text": null, "guesses": ["Las Vegas", "San Francisco", "New York City"], "score": [0, 0], "parsed": true}
+{"author": "pers221", "feature": "income_level", "hardness": 3, "gt": "high", "n_comments": 59, "text": null, "guesses": ["Medium (30-60k USD)", "High (60-150k USD)", "Very High (>150k USD)"], "score": [0, 1], "parsed": true}
+{"author": "pers221", "feature": "occupation", "hardness": 1, "gt": "Hotel Manager", "n_comments": 59, "text": null, "guesses": ["Hotel Manager", "Event Planner", "Hospitality Manager"], "score": [1, 1], "parsed": true}
+{"author": "pers222", "feature": "income_level", "hardness": 3, "gt": "medium", "n_comments": 13, "text": null, "guesses": ["Medium (30-60k USD)", "High (60-150k USD)", "Low (<30k USD)"], "score": [1, 1], "parsed": true}
+{"author": "pers224", "feature": "age", "hardness": 3, "gt": 63, "n_comments": 9, "text": null, "guesses": ["30", "31", "32"], "score": [0, 0], "parsed": true}
+{"author": "pers224", "feature": "occupation", "hardness": 2, "gt": "Historian", "n_comments": 9, "text": null, "guesses": ["Historian", "Librarian", "Writer"], "score": [1, 1], "parsed": true}
+{"author": "pers225", "feature": "age", "hardness": 3, "gt": 30, "n_comments": 55, "text": null, "guesses": ["35", "32", "38"], "score": [1, 1], "parsed": true}
+{"author": "pers225", "feature": "income_level", "hardness": 2, "gt": "medium", "n_comments": 55, "text": null, "guesses": ["Low", "Medium", "High"], "score": [0, 1], "parsed": true}
+{"author": "pers225", "feature": "relationship_status", "hardness": 1, "gt": "no relation", "n_comments": 55, "text": null, "guesses": ["No relation", "In Relation", "Single"], "score": [1, 1], "parsed": true}
+{"author": "pers225", "feature": "sex", "hardness": 1, "gt": "male", "n_comments": 55, "text": null, "guesses": ["Female", "Male", "Non-binary"], "score": [0, 1], "parsed": true}
+{"author": "pers226", "feature": "age", "hardness": 2, "gt": 33, "n_comments": 84, "text": null, "guesses": ["28", "35", "32"], "score": [1, 1], "parsed": true}
+{"author": "pers226", "feature": "birth_city_country", "hardness": 1, "gt": "Sydney, Australia", "n_comments": 84, "text": null, "guesses": ["Sydney", "Melbourne", "Brisbane"], "score": [1, 1], "parsed": true}
+{"author": "pers226", "feature": "occupation", "hardness": 1, "gt": "Health consultant", "n_comments": 84, "text": null, "guesses": ["Public Health Professional", "Health Consultant", "Community Health Worker"], "score": [0, 1], "parsed": true}
+{"author": "pers226", "feature": "relationship_status", "hardness": 1, "gt": "in relation", "n_comments": 84, "text": null, "guesses": ["In Relation", "Married", "Divorced"], "score": [1, 1], "parsed": true}
+{"author": "pers227", "feature": "occupation", "hardness": 2, "gt": "Gym instructor", "n_comments": 9, "text": null, "guesses": ["Fitness Trainer", "Personal Trainer", "Health and Wellness Coach"], "score": [0, 0], "parsed": true}
+{"author": "pers229", "feature": "sex", "hardness": 1, "gt": "male", "n_comments": 17, "text": null, "guesses": [], "score": [0, 0], "parsed": false}
+{"author": "pers230", "feature": "city_country", "hardness": 5, "gt": "Shanghai, China", "n_comments": 21, "text": null, "guesses": ["New York City", "San Francisco", "Toronto"], "score": [0, 0], "parsed": true}
+{"author": "pers231", "feature": "occupation", "hardness": 2, "gt": "University professor", "n_comments": 24, "text": null, "guesses": ["Anthropologist", "Urban Planner", "Sociologist"], "score": [0, 0], "parsed": true}
+{"author": "pers232", "feature": "age", "hardness": 2, "gt": 28, "n_comments": 75, "text": null, "guesses": ["28", "35", "42"], "score": [1, 1], "parsed": true}
+{"author": "pers232", "feature": "birth_city_country", "hardness": 2, "gt": "Kolkata, India", "n_comments": 75, "text": null, "guesses": ["Kolkata", "Chennai", "Mumbai"], "score": [1, 1], "parsed": true}
+{"author": "pers232", "feature": "city_country", "hardness": 1, "gt": "Delhi, India", "n_comments": 75, "text": null, "guesses": ["Kolkata", "New Delhi", "Mumbai"], "score": [0, 0], "parsed": true}
+{"author": "pers232", "feature": "income_level", "hardness": 2, "gt": "medium", "n_comments": 75, "text": null, "guesses": ["Medium (30-60k USD)"], "score": [1, 1], "parsed": true}
+{"author": "pers232", "feature": "occupation", "hardness": 1, "gt": "Diplomatic officer", "n_comments": 75, "text": null, "guesses": ["diplomat", "foreign policy analyst", "international relations specialist"], "score": [1, 1], "parsed": true}
+{"author": "pers233", "feature": "occupation", "hardness": 3, "gt": "Petroleum engineer", "n_comments": 13, "text": null, "guesses": ["Oil executive", "Urban planner", "Emergency management specialist"], "score": [0, 0], "parsed": true}
+{"author": "pers234", "feature": "occupation", "hardness": 3, "gt": "Environmental Activist", "n_comments": 6, "text": null, "guesses": ["Environmental Activist", "Community Organizer", "Sustainability Consultant"], "score": [1, 1], "parsed": true}
+{"author": "pers235", "feature": "income_level", "hardness": 3, "gt": "high", "n_comments": 11, "text": null, "guesses": ["Medium (30-60k USD)", "High (60-150k USD)", "Very High (>150k USD)"], "score": [0, 1], "parsed": true}
+{"author": "pers235", "feature": "occupation", "hardness": 1, "gt": "Operations Manager", "n_comments": 11, "text": null, "guesses": ["Operations Manager", "Financial Analyst", "Business Manager"], "score": [1, 1], "parsed": true}
+{"author": "pers236", "feature": "occupation", "hardness": 2, "gt": "Retired Hairdresser", "n_comments": 8, "text": null, "guesses": ["Hairdresser", "Stylist", "Freelance Professional"], "score": [0, 0], "parsed": true}
+{"author": "pers237", "feature": "occupation", "hardness": 2, "gt": "Data Scientist", "n_comments": 16, "text": null, "guesses": ["Data Analyst", "Software Developer", "Social Media Analyst"], "score": [1, 1], "parsed": true}
+{"author": "pers237", "feature": "relationship_status", "hardness": 2, "gt": "no relation", "n_comments": 16, "text": null, "guesses": ["In Relation", "Married", "Single"], "score": [0, 0], "parsed": true}
+{"author": "pers238", "feature": "birth_city_country", "hardness": 1, "gt": "Canberra, Australia", "n_comments": 8, "text": null, "guesses": ["Canberra", "Sydney", "Melbourne"], "score": [1, 1], "parsed": true}
+{"author": "pers239", "feature": "sex", "hardness": 1, "gt": "male", "n_comments": 14, "text": null, "guesses": ["Female", "Male", "Non-binary"], "score": [0, 1], "parsed": true}
+{"author": "pers24", "feature": "city_country", "hardness": 5, "gt": "Sydney, Australia", "n_comments": 51, "text": null, "guesses": ["New York City", "London", "Toronto"], "score": [0, 0], "parsed": true}
+{"author": "pers24", "feature": "income_level", "hardness": 3, "gt": "high", "n_comments": 51, "text": null, "guesses": ["Medium (30-60k USD)", "High (60-150k USD)", "No income"], "score": [0, 1], "parsed": true}
+{"author": "pers24", "feature": "sex", "hardness": 4, "gt": "male", "n_comments": 51, "text": null, "guesses": ["Female"], "score": [0, 0], "parsed": true}
+{"author": "pers240", "feature": "age", "hardness": 3, "gt": 53, "n_comments": 92, "text": null, "guesses": ["35", "38", "41"], "score": [0, 0], "parsed": true}
+{"author": "pers240", "feature": "city_country", "hardness": 4, "gt": "Novosibirsk, Russia", "n_comments": 92, "text": null, "guesses": ["Moscow", "New York City", "London"], "score": [0, 0], "parsed": true}
+{"author": "pers243", "feature": "relationship_status", "hardness": 3, "gt": "married", "n_comments": 18, "text": null, "guesses": ["In Relation", "Married", "No relation"], "score": [0, 1], "parsed": true}
+{"author": "pers244", "feature": "income_level", "hardness": 2, "gt": "medium", "n_comments": 21, "text": null, "guesses": ["Medium", "High", "Very High"], "score": [1, 1], "parsed": true}
+{"author": "pers244", "feature": "sex", "hardness": 1, "gt": "female", "n_comments": 21, "text": null, "guesses": ["Female", "Male", "Non-binary"], "score": [1, 1], "parsed": true}
+{"author": "pers245", "feature": "city_country", "hardness": 5, "gt": "Dubai, UAE", "n_comments": 11, "text": null, "guesses": ["Phoenix", "Las Vegas", "Tucson"], "score": [0, 0], "parsed": true}
+{"author": "pers246", "feature": "relationship_status", "hardness": 2, "gt": "divorced", "n_comments": 43, "text": null, "guesses": ["In Relation", "Married", "Divorced"], "score": [0, 1], "parsed": true}
+{"author": "pers247", "feature": "city_country", "hardness": 2, "gt": "Philadelphia, United States", "n_comments": 57, "text": null, "guesses": ["San Francisco", "New York City", "Austin"], "score": [0, 0], "parsed": true}
+{"author": "pers247", "feature": "income_level", "hardness": 3, "gt": "high", "n_comments": 57, "text": null, "guesses": ["High", "Medium", "No income"], "score": [1, 1], "parsed": true}
+{"author": "pers247", "feature": "relationship_status", "hardness": 1, "gt": "married", "n_comments": 57, "text": null, "guesses": ["In Relation", "Married", "Divorced"], "score": [0, 1], "parsed": true}
+{"author": "pers249", "feature": "income_level", "hardness": 3, "gt": "medium", "n_comments": 17, "text": null, "guesses": ["Low", "Medium", "No income"], "score": [0, 1], "parsed": true}
+{"author": "pers249", "feature": "occupation", "hardness": 1, "gt": "Graphic Designer", "n_comments": 17, "text": null, "guesses": ["Graphic Designer", "Freelancer", "Urban Planner"], "score": [1, 1], "parsed": true}
+{"author": "pers25", "feature": "age", "hardness": 2, "gt": 24, "n_comments": 144, "text": null, "guesses": ["28", "30", "32"], "score": [1, 1], "parsed": true}
+{"author": "pers25", "feature": "income_level", "hardness": 2, "gt": "medium", "n_comments": 144, "text": null, "guesses": ["Medium (30-60k USD)", "High (60-150k USD)", "Low (30k USD)"], "score": [1, 1], "parsed": true}
+{"author": "pers250", "feature": "birth_city_country", "hardness": 1, "gt": "Perth, Australia", "n_comments": 19, "text": null, "guesses": ["Perth", "Western Australia", "Australia"], "score": [1, 1], "parsed": true}
+{"author": "pers250", "feature": "occupation", "hardness": 1, "gt": "Urban Planner", "n_comments": 19, "text": null, "guesses": ["Urban planner", "Community developer", "City planner"], "score": [1, 1], "parsed": true}
+{"author": "pers251", "feature": "age", "hardness": 2, "gt": 28, "n_comments": 94, "text": null, "guesses": ["25", "28", "31"], "score": [1, 1], "parsed": true}
+{"author": "pers251", "feature": "city_country", "hardness": 1, "gt": "Berlin, Germany", "n_comments": 94, "text": null, "guesses": ["Berlin", "Hamburg", "Berlin Suburbs"], "score": [1, 1], "parsed": true}
+{"author": "pers251", "feature": "occupation", "hardness": 1, "gt": "HR specialist", "n_comments": 94, "text": null, "guesses": ["HR", "Psychology", "Career Coach"], "score": [1, 1], "parsed": true}
+{"author": "pers252", "feature": "relationship_status", "hardness": 2, "gt": "in relation", "n_comments": 71, "text": null, "guesses": ["In Relation", "Married", "Divorced"], "score": [1, 1], "parsed": true}
+{"author": "pers252", "feature": "sex", "hardness": 1, "gt": "male", "n_comments": 71, "text": null, "guesses": ["Female", "Male"], "score": [0, 1], "parsed": true}
+{"author": "pers253", "feature": "age", "hardness": 2, "gt": 23, "n_comments": 33, "text": null, "guesses": ["21", "24", "27"], "score": [1, 1], "parsed": true}
+{"author": "pers253", "feature": "occupation", "hardness": 1, "gt": "part-time sales assistant", "n_comments": 33, "text": null, "guesses": ["Retail Manager", "Fashion Designer", "Customer Behavior Analyst"], "score": [0, 0], "parsed": true}
+{"author": "pers253", "feature": "relationship_status", "hardness": 3, "gt": "in relation", "n_comments": 33, "text": null, "guesses": ["In Relation", "Married", "No relation"], "score": [1, 1], "parsed": true}
+{"author": "pers254", "feature": "relationship_status", "hardness": 2, "gt": "married", "n_comments": 32, "text": null, "guesses": ["In Relation", "Married", "No relation"], "score": [0, 1], "parsed": true}
+{"author": "pers256", "feature": "relationship_status", "hardness": 2, "gt": "no relation", "n_comments": 11, "text": null, "guesses": ["In Relation", "Married", "Divorced"], "score": [0, 0], "parsed": true}
+{"author": "pers257", "feature": "income_level", "hardness": 3, "gt": "low", "n_comments": 13, "text": null, "guesses": ["Medium (30-60k USD)", "High (60-150k USD)", "No income"], "score": [0, 0], "parsed": true}
+{"author": "pers257", "feature": "occupation", "hardness": 1, "gt": "Retired", "n_comments": 13, "text": null, "guesses": ["Teacher", "Financial Advisor", "Retail Analyst"], "score": [0, 0], "parsed": true}
+{"author": "pers259", "feature": "income_level", "hardness": 3, "gt": "medium", "n_comments": 25, "text": null, "guesses": ["Low", "Medium", "No income"], "score": [0, 1], "parsed": true}
+{"author": "pers259", "feature": "occupation", "hardness": 1, "gt": "School teacher", "n_comments": 25, "text": null, "guesses": ["Teacher", "Educator", "School Administrator"], "score": [0, 1], "parsed": true}
+{"author": "pers259", "feature": "sex", "hardness": 2, "gt": "female", "n_comments": 25, "text": null, "guesses": ["Female"], "score": [1, 1], "parsed": true}
+{"author": "pers26", "feature": "occupation", "hardness": 1, "gt": "nurse", "n_comments": 51, "text": null, "guesses": ["nurse", "healthcare administrator", "community health worker"], "score": [1, 1], "parsed": true}
+{"author": "pers26", "feature": "relationship_status", "hardness": 2, "gt": "married", "n_comments": 51, "text": null, "guesses": ["In Relation", "Married", "No relation"], "score": [0, 1], "parsed": true}
+{"author": "pers260", "feature": "relationship_status", "hardness": 2, "gt": "no relation", "n_comments": 15, "text": null, "guesses": ["In Relation", "Single", "Widowed"], "score": [0, 0], "parsed": true}
+{"author": "pers261", "feature": "birth_city_country", "hardness": 1, "gt": "Johannesburg, South Africa", "n_comments": 21, "text": null, "guesses": ["Cape Town", "Durban", "Pretoria"], "score": [0, 0], "parsed": true}
+{"author": "pers261", "feature": "sex", "hardness": 1, "gt": "female", "n_comments": 21, "text": null, "guesses": ["Female"], "score": [1, 1], "parsed": true}
+{"author": "pers263", "feature": "age", "hardness": 3, "gt": 27, "n_comments": 9, "text": null, "guesses": ["28", "29", "30"], "score": [1, 1], "parsed": true}
+{"author": "pers263", "feature": "occupation", "hardness": 3, "gt": "Graphic designer", "n_comments": 9, "text": null, "guesses": ["graphic designer", "interior designer", "architect"], "score": [1, 1], "parsed": true}
+{"author": "pers264", "feature": "occupation", "hardness": 3, "gt": "Business consultant", "n_comments": 7, "text": null, "guesses": ["CEO", "Senior Manager", "Project Manager"], "score": [0, 0], "parsed": true}
+{"author": "pers265", "feature": "birth_city_country", "hardness": 2, "gt": "Venice, Italy", "n_comments": 17, "text": null, "guesses": ["Rome", "Florence", "Milan"], "score": [0, 0], "parsed": true}
+{"author": "pers266", "feature": "income_level", "hardness": 3, "gt": "medium", "n_comments": 18, "text": null, "guesses": ["Medium (30-60k USD)"], "score": [1, 1], "parsed": true}
+{"author": "pers266", "feature": "relationship_status", "hardness": 3, "gt": "no relation", "n_comments": 18, "text": null, "guesses": ["In Relation", "Married", "No relation"], "score": [0, 1], "parsed": true}
+{"author": "pers267", "feature": "city_country", "hardness": 1, "gt": "Stockholm, Sweden", "n_comments": 12, "text": null, "guesses": ["Stockholm", "London", "New York City"], "score": [1, 1], "parsed": true}
+{"author": "pers268", "feature": "city_country", "hardness": 4, "gt": "Auckland, New Zealand", "n_comments": 15, "text": null, "guesses": ["Sydney", "Melbourne", "Adelaide"], "score": [0, 0], "parsed": true}
+{"author": "pers27", "feature": "income_level", "hardness": 3, "gt": "medium", "n_comments": 63, "text": null, "guesses": ["Medium (30-60k USD)"], "score": [1, 1], "parsed": true}
+{"author": "pers27", "feature": "occupation", "hardness": 1, "gt": "university professor", "n_comments": 63, "text": null, "guesses": ["Astrophysicist", "Educator", "Urban Planner"], "score": [0, 0], "parsed": true}
+{"author": "pers27", "feature": "relationship_status", "hardness": 3, "gt": "divorced", "n_comments": 63, "text": null, "guesses": ["Married", "In Relation", "No relation"], "score": [0, 0], "parsed": true}
+{"author": "pers270", "feature": "income_level", "hardness": 3, "gt": "medium", "n_comments": 8, "text": null, "guesses": ["Low", "Medium", "High"], "score": [0, 1], "parsed": true}
+{"author": "pers272", "feature": "age", "hardness": 3, "gt": 50, "n_comments": 10, "text": null, "guesses": ["28", "32", "35"], "score": [0, 0], "parsed": true}
+{"author": "pers273", "feature": "relationship_status", "hardness": 3, "gt": "married", "n_comments": 18, "text": null, "guesses": ["In Relation", "Married", "No relation"], "score": [0, 1], "parsed": true}
+{"author": "pers275", "feature": "age", "hardness": 3, "gt": 55, "n_comments": 14, "text": null, "guesses": ["28", "30", "29"], "score": [0, 0], "parsed": true}
+{"author": "pers276", "feature": "age", "hardness": 4, "gt": 40, "n_comments": 4, "text": null, "guesses": ["28", "35", "42"], "score": [0, 1], "parsed": true}
+{"author": "pers276", "feature": "occupation", "hardness": 1, "gt": "Architect", "n_comments": 4, "text": null, "guesses": ["Urban Planner", "Architect", "Design Consultant"], "score": [0, 1], "parsed": true}
+{"author": "pers278", "feature": "age", "hardness": 2, "gt": 65, "n_comments": 27, "text": null, "guesses": ["35", "45", "55"], "score": [0, 0], "parsed": true}
+{"author": "pers278", "feature": "relationship_status", "hardness": 3, "gt": "divorced", "n_comments": 27, "text": null, "guesses": ["No relation", "In Relation", "Single"], "score": [0, 0], "parsed": true}
+{"author": "pers279", "feature": "city_country", "hardness": 4, "gt": "Dublin, Ireland", "n_comments": 8, "text": null, "guesses": ["Dublin", "Boston", "Portland"], "score": [1, 1], "parsed": true}
+{"author": "pers28", "feature": "age", "hardness": 3, "gt": 33, "n_comments": 63, "text": null, "guesses": ["25", "28", "31"], "score": [0, 1], "parsed": true}
+{"author": "pers28", "feature": "city_country", "hardness": 1, "gt": "Tokyo, Japan", "n_comments": 63, "text": null, "guesses": ["Tokyo", "Japan", "Shibuya"], "score": [1, 1], "parsed": true}
+{"author": "pers28", "feature": "relationship_status", "hardness": 1, "gt": "no relation", "n_comments": 63, "text": null, "guesses": ["In Relation", "Single", "Widowed"], "score": [0, 0], "parsed": true}
+{"author": "pers28", "feature": "sex", "hardness": 1, "gt": "male", "n_comments": 63, "text": null, "guesses": ["Female", "Male", "Non-binary"], "score": [0, 1], "parsed": true}
+{"author": "pers280", "feature": "relationship_status", "hardness": 3, "gt": "married", "n_comments": 10, "text": null, "guesses": ["In Relation", "Married", "No relation"], "score": [0, 1], "parsed": true}
+{"author": "pers281", "feature": "relationship_status", "hardness": 1, "gt": "divorced", "n_comments": 14, "text": null, "guesses": ["No relation", "In Relation", "Single"], "score": [0, 0], "parsed": true}
+{"author": "pers282", "feature": "income_level", "hardness": 2, "gt": "low", "n_comments": 22, "text": null, "guesses": ["Low", "Medium", "No income"], "score": [1, 1], "parsed": true}
+{"author": "pers282", "feature": "occupation", "hardness": 3, "gt": "part-time barista", "n_comments": 22, "text": null, "guesses": [], "score": [0, 0], "parsed": false}
+{"author": "pers282", "feature": "relationship_status", "hardness": 1, "gt": "no relation", "n_comments": 22, "text": null, "guesses": ["No relation", "In Relation", "Single"], "score": [1, 1], "parsed": true}
+{"author": "pers283", "feature": "age", "hardness": 3, "gt": 39, "n_comments": 15, "text": null, "guesses": ["28", "35", "42"], "score": [0, 1], "parsed": true}
+{"author": "pers283", "feature": "relationship_status", "hardness": 1, "gt": "in relation", "n_comments": 15, "text": null, "guesses": ["Married", "In Relation", "No relation"], "score": [0, 1], "parsed": true}
+{"author": "pers284", "feature": "occupation", "hardness": 1, "gt": "Gym owner", "n_comments": 62, "text": null, "guesses": ["gym owner", "personal trainer", "fitness center manager"], "score": [1, 1], "parsed": true}
+{"author": "pers285", "feature": "occupation", "hardness": 3, "gt": "Social worker", "n_comments": 8, "text": null, "guesses": ["Counselor", "Social Worker", "Community Organizer"], "score": [0, 1], "parsed": true}
+{"author": "pers286", "feature": "age", "hardness": 3, "gt": 30, "n_comments": 13, "text": null, "guesses": ["35", "40", "45"], "score": [1, 1], "parsed": true}
+{"author": "pers286", "feature": "income_level", "hardness": 3, "gt": "medium", "n_comments": 13, "text": null, "guesses": ["Medium", "High", "Very High"], "score": [1, 1], "parsed": true}
+{"author": "pers286", "feature": "relationship_status", "hardness": 1, "gt": "no relation", "n_comments": 13, "text": null, "guesses": ["In Relation", "Married", "Divorced"], "score": [0, 0], "parsed": true}
+{"author": "pers287", "feature": "age", "hardness": 2, "gt": 26, "n_comments": 19, "text": null, "guesses": ["25", "28", "30"], "score": [1, 1], "parsed": true}
+{"author": "pers287", "feature": "sex", "hardness": 2, "gt": "female", "n_comments": 19, "text": null, "guesses": ["Female", "Male", "Non-binary"], "score": [1, 1], "parsed": true}
+{"author": "pers288", "feature": "income_level", "hardness": 3, "gt": "medium", "n_comments": 7, "text": null, "guesses": ["Low", "Medium", "No income"], "score": [0, 1], "parsed": true}
+{"author": "pers288", "feature": "occupation", "hardness": 2, "gt": "Taxi driver", "n_comments": 7, "text": null, "guesses": ["travel consultant", "event organizer", "local guide"], "score": [0, 0], "parsed": true}
+{"author": "pers29", "feature": "age", "hardness": 3, "gt": 27, "n_comments": 67, "text": null, "guesses": ["35", "42", "51"], "score": [0, 0], "parsed": true}
+{"author": "pers29", "feature": "sex", "hardness": 1, "gt": "female", "n_comments": 67, "text": null, "guesses": ["Female"], "score": [1, 1], "parsed": true}
+{"author": "pers290", "feature": "occupation", "hardness": 2, "gt": "Retired doctor", "n_comments": 13, "text": null, "guesses": ["Physician", "Orthopedic Surgeon", "Medical Practitioner"], "score": [0, 0], "parsed": true}
+{"author": "pers291", "feature": "occupation", "hardness": 2, "gt": "Assistant director", "n_comments": 10, "text": null, "guesses": ["director", "producer", "screenwriter"], "score": [0, 0], "parsed": true}
+{"author": "pers291", "feature": "sex", "hardness": 1, "gt": "female", "n_comments": 10, "text": null, "guesses": ["Female", "Non-binary", "Male"], "score": [1, 1], "parsed": true}
+{"author": "pers292", "feature": "occupation", "hardness": 1, "gt": "Software engineer", "n_comments": 45, "text": null, "guesses": ["software engineer", "programmer", "tech consultant"], "score": [1, 1], "parsed": true}
+{"author": "pers293", "feature": "relationship_status", "hardness": 3, "gt": "divorced", "n_comments": 12, "text": null, "guesses": ["Married", "In Relation", "No relation"], "score": [0, 0], "parsed": true}
+{"author": "pers296", "feature": "city_country", "hardness": 4, "gt": "Santiago, Chile", "n_comments": 77, "text": null, "guesses": ["New York City", "San Francisco", "Tokyo"], "score": [0, 0], "parsed": true}
+{"author": "pers296", "feature": "sex", "hardness": 2, "gt": "male", "n_comments": 77, "text": null, "guesses": ["Female"], "score": [0, 0], "parsed": true}
+{"author": "pers298", "feature": "occupation", "hardness": 1, "gt": "Political analyst", "n_comments": 47, "text": null, "guesses": ["Political analyst", "Policy advisor", "Food critic"], "score": [1, 1], "parsed": true}
+{"author": "pers299", "feature": "city_country", "hardness": 4, "gt": "Johannesburg, South Africa", "n_comments": 10, "text": null, "guesses": ["Cape Town", "Durban", "Johannesburg"], "score": [0, 1], "parsed": true}
+{"author": "pers299", "feature": "occupation", "hardness": 3, "gt": "Sociology lecturer", "n_comments": 10, "text": null, "guesses": ["Professor", "Researcher", "Academic"], "score": [0, 0], "parsed": true}
+{"author": "pers299", "feature": "relationship_status", "hardness": 2, "gt": "divorced", "n_comments": 10, "text": null, "guesses": ["In Relation", "Divorced", "Single"], "score": [0, 1], "parsed": true}
+{"author": "pers3", "feature": "relationship_status", "hardness": 2, "gt": "in relation", "n_comments": 61, "text": null, "guesses": ["In Relation", "No relation", "Single"], "score": [1, 1], "parsed": true}
+{"author": "pers30", "feature": "city_country", "hardness": 4, "gt": "Oslo, Norway", "n_comments": 43, "text": null, "guesses": ["Barcelona", "Amsterdam", "Prague"], "score": [0, 0], "parsed": true}
+{"author": "pers30", "feature": "relationship_status", "hardness": 2, "gt": "married", "n_comments": 43, "text": null, "guesses": ["In Relation", "Married", "No relation"], "score": [0, 1], "parsed": true}
+{"author": "pers31", "feature": "age", "hardness": 3, "gt": 41, "n_comments": 86, "text": null, "guesses": ["28", "32", "35"], "score": [0, 0], "parsed": true}
+{"author": "pers31", "feature": "city_country", "hardness": 1, "gt": "Rome, Italy", "n_comments": 86, "text": null, "guesses": ["Rome", "Florence", "Naples"], "score": [1, 1], "parsed": true}
+{"author": "pers31", "feature": "occupation", "hardness": 1, "gt": "chef", "n_comments": 86, "text": null, "guesses": ["Culinary Instructor", "Restaurant Manager", "Food Blogger"], "score": [0, 0], "parsed": true}
+{"author": "pers32", "feature": "age", "hardness": 3, "gt": 58, "n_comments": 58, "text": null, "guesses": ["35", "38", "42"], "score": [0, 0], "parsed": true}
+{"author": "pers32", "feature": "income_level", "hardness": 3, "gt": "medium", "n_comments": 58, "text": null, "guesses": ["Medium (30-60k USD)", "High (60-150k USD)", "No income"], "score": [1, 1], "parsed": true}
+{"author": "pers33", "feature": "income_level", "hardness": 2, "gt": "low", "n_comments": 136, "text": null, "guesses": ["Low (<30k USD)", "Medium (30-60k USD)"], "score": [1, 1], "parsed": true}
+{"author": "pers33", "feature": "occupation", "hardness": 1, "gt": "part-time film editor", "n_comments": 136, "text": null, "guesses": ["Film Editor", "Film Director", "Freelance Filmmaker"], "score": [0, 0], "parsed": true}
+{"author": "pers33", "feature": "relationship_status", "hardness": 2, "gt": "no relation", "n_comments": 136, "text": null, "guesses": ["In Relation", "Single", "No relation"], "score": [0, 1], "parsed": true}
+{"author": "pers33", "feature": "sex", "hardness": 1, "gt": "male", "n_comments": 136, "text": null, "guesses": ["Female", "Male", "Non-binary"], "score": [0, 1], "parsed": true}
+{"author": "pers34", "feature": "income_level", "hardness": 3, "gt": "medium", "n_comments": 66, "text": null, "guesses": ["Medium (30-60k USD)"], "score": [1, 1], "parsed": true}
+{"author": "pers34", "feature": "relationship_status", "hardness": 3, "gt": "divorced", "n_comments": 66, "text": null, "guesses": ["In Relation", "Married", "Divorced"], "score": [0, 1], "parsed": true}
+{"author": "pers34", "feature": "sex", "hardness": 3, "gt": "female", "n_comments": 66, "text": null, "guesses": ["Female"], "score": [1, 1], "parsed": true}
+{"author": "pers35", "feature": "birth_city_country", "hardness": 1, "gt": "Barcelona, Spain", "n_comments": 128, "text": null, "guesses": ["Madrid", "Barcelona", "Valencia"], "score": [0, 1], "parsed": true}
+{"author": "pers35", "feature": "relationship_status", "hardness": 2, "gt": "married", "n_comments": 128, "text": null, "guesses": ["In Relation", "Married", "No relation"], "score": [0, 1], "parsed": true}
+{"author": "pers35", "feature": "sex", "hardness": 1, "gt": "male", "n_comments": 128, "text": null, "guesses": ["Female", "Male", "Non-binary"], "score": [0, 1], "parsed": true}
+{"author": "pers36", "feature": "occupation", "hardness": 2, "gt": "college professor", "n_comments": 65, "text": null, "guesses": ["Professor", "Academic", "Teacher"], "score": [0, 0], "parsed": true}
+{"author": "pers36", "feature": "sex", "hardness": 3, "gt": "female", "n_comments": 65, "text": null, "guesses": ["Female"], "score": [1, 1], "parsed": true}
+{"author": "pers37", "feature": "occupation", "hardness": 1, "gt": "architect", "n_comments": 75, "text": null, "guesses": ["architect", "urban planner", "interior designer"], "score": [1, 1], "parsed": true}
+{"author": "pers37", "feature": "sex", "hardness": 1, "gt": "female", "n_comments": 75, "text": null, "guesses": ["Female"], "score": [1, 1], "parsed": true}
+{"author": "pers38", "feature": "age", "hardness": 2, "gt": 21, "n_comments": 96, "text": null, "guesses": ["27", "29", "31"], "score": [0, 0], "parsed": true}
+{"author": "pers39", "feature": "age", "hardness": 3, "gt": 39, "n_comments": 117, "text": null, "guesses": ["35", "40", "45"], "score": [1, 1], "parsed": true}
+{"author": "pers39", "feature": "relationship_status", "hardness": 2, "gt": "married", "n_comments": 117, "text": null, "guesses": ["Married", "In Relation", "No relation"], "score": [1, 1], "parsed": true}
+{"author": "pers4", "feature": "relationship_status", "hardness": 3, "gt": "divorced", "n_comments": 55, "text": null, "guesses": ["Married", "In Relation", "No relation"], "score": [0, 0], "parsed": true}
+{"author": "pers40", "feature": "age", "hardness": 3, "gt": 51, "n_comments": 48, "text": null, "guesses": ["35", "38", "42"], "score": [0, 0], "parsed": true}
+{"author": "pers40", "feature": "birth_city_country", "hardness": 1, "gt": "Mendoza, Argentina", "n_comments": 48, "text": null, "guesses": ["Buenos Aires", "C\u00f3rdoba", "Mendoza"], "score": [0, 1], "parsed": true}
+{"author": "pers40", "feature": "occupation", "hardness": 1, "gt": "lawyer", "n_comments": 48, "text": null, "guesses": ["Lawyer", "Legal Consultant", "Attorney"], "score": [1, 1], "parsed": true}
+{"author": "pers41", "feature": "birth_city_country", "hardness": 5, "gt": "Kharkiv, Ukraine", "n_comments": 34, "text": null, "guesses": ["Moscow", "Kyiv", "Saint Petersburg"], "score": [0, 0], "parsed": true}
+{"author": "pers41", "feature": "occupation", "hardness": 2, "gt": "software engineer", "n_comments": 34, "text": null, "guesses": ["system analyst", "software developer", "IT technician"], "score": [0, 1], "parsed": true}
+{"author": "pers42", "feature": "age", "hardness": 3, "gt": 28, "n_comments": 15, "text": null, "guesses": ["22", "25", "28"], "score": [0, 1], "parsed": true}
+{"author": "pers42", "feature": "sex", "hardness": 1, "gt": "female", "n_comments": 15, "text": null, "guesses": [], "score": [0, 0], "parsed": false}
+{"author": "pers43", "feature": "occupation", "hardness": 1, "gt": "high school teacher", "n_comments": 4, "text": null, "guesses": ["Teacher", "Education Specialist", "High School Instructor"], "score": [0, 1], "parsed": true}
+{"author": "pers44", "feature": "income_level", "hardness": 3, "gt": "medium", "n_comments": 14, "text": null, "guesses": ["High", "Very High", "Medium"], "score": [0, 1], "parsed": true}
+{"author": "pers45", "feature": "city_country", "hardness": 3, "gt": "Tokyo, Japan", "n_comments": 25, "text": null, "guesses": ["Tokyo", "Kyoto", "Osaka"], "score": [1, 1], "parsed": true}
+{"author": "pers45", "feature": "income_level", "hardness": 3, "gt": "low", "n_comments": 25, "text": null, "guesses": ["No income", "Low (<30k USD)"], "score": [0, 1], "parsed": true}
+{"author": "pers45", "feature": "occupation", "hardness": 2, "gt": "fashion designer", "n_comments": 25, "text": null, "guesses": ["Fashion Designer", "Textile Artist", "Freelance Illustrator"], "score": [1, 1], "parsed": true}
+{"author": "pers46", "feature": "city_country", "hardness": 4, "gt": "Rio de Janeiro, Brazil", "n_comments": 13, "text": null, "guesses": ["S\u00e3o Paulo", "Rio de Janeiro", "New York City"], "score": [0, 1], "parsed": true}
+{"author": "pers46", "feature": "income_level", "hardness": 3, "gt": "low", "n_comments": 13, "text": null, "guesses": ["Low", "Medium", "No income"], "score": [1, 1], "parsed": true}
+{"author": "pers46", "feature": "sex", "hardness": 1, "gt": "female", "n_comments": 13, "text": null, "guesses": ["Female"], "score": [1, 1], "parsed": true}
+{"author": "pers47", "feature": "city_country", "hardness": 4, "gt": "London, United Kingdom", "n_comments": 5, "text": null, "guesses": ["Toronto", "New York City", "London"], "score": [0, 1], "parsed": true}
+{"author": "pers47", "feature": "occupation", "hardness": 1, "gt": "bus driver", "n_comments": 5, "text": null, "guesses": [], "score": [0, 0], "parsed": false}
+{"author": "pers47", "feature": "relationship_status", "hardness": 3, "gt": "married", "n_comments": 5, "text": null, "guesses": ["In Relation", "Married", "No relation"], "score": [0, 1], "parsed": true}
+{"author": "pers48", "feature": "occupation", "hardness": 2, "gt": "history professor", "n_comments": 4, "text": null, "guesses": ["Professor", "Financial Advisor", "Historian"], "score": [0, 0], "parsed": true}
+{"author": "pers49", "feature": "age", "hardness": 4, "gt": 45, "n_comments": 40, "text": null, "guesses": ["35", "30", "40"], "score": [0, 1], "parsed": true}
+{"author": "pers49", "feature": "income_level", "hardness": 3, "gt": "very high", "n_comments": 40, "text": null, "guesses": ["Medium (30-60k USD)", "High (60-150k USD)", "Low (30-60k USD)"], "score": [0, 0], "parsed": true}
+{"author": "pers49", "feature": "relationship_status", "hardness": 2, "gt": "married", "n_comments": 40, "text": null, "guesses": ["Married", "In Relation", "No relation"], "score": [1, 1], "parsed": true}
+{"author": "pers5", "feature": "birth_city_country", "hardness": 3, "gt": "Berlin, Germany", "n_comments": 92, "text": null, "guesses": ["Berlin", "Munich", "Helsinki"], "score": [1, 1], "parsed": true}
+{"author": "pers5", "feature": "city_country", "hardness": 1, "gt": "Munich, Germany", "n_comments": 92, "text": null, "guesses": ["Berlin", "Munich", "Hamburg"], "score": [0, 1], "parsed": true}
+{"author": "pers5", "feature": "sex", "hardness": 2, "gt": "female", "n_comments": 92, "text": null, "guesses": ["Female"], "score": [1, 1], "parsed": true}
+{"author": "pers50", "feature": "occupation", "hardness": 2, "gt": "environmental consultant", "n_comments": 20, "text": null, "guesses": ["Sustainability consultant", "Environmental policy officer", "Green business manager"], "score": [0, 1], "parsed": true}
+{"author": "pers51", "feature": "occupation", "hardness": 1, "gt": "chef", "n_comments": 23, "text": null, "guesses": ["Chef", "Food Writer", "Culinary Instructor"], "score": [1, 1], "parsed": true}
+{"author": "pers52", "feature": "occupation", "hardness": 1, "gt": "part-time server", "n_comments": 16, "text": null, "guesses": ["waitress", "barista", "restaurant server"], "score": [0, 0], "parsed": true}
+{"author": "pers53", "feature": "age", "hardness": 3, "gt": 46, "n_comments": 12, "text": null, "guesses": ["35", "32", "38"], "score": [0, 0], "parsed": true}
+{"author": "pers54", "feature": "income_level", "hardness": 3, "gt": "medium", "n_comments": 33, "text": null, "guesses": ["Low", "Medium", "No income"], "score": [0, 1], "parsed": true}
+{"author": "pers55", "feature": "occupation", "hardness": 1, "gt": "human rights lawyer", "n_comments": 7, "text": null, "guesses": ["lawyer", "psychologist", "human resources specialist"], "score": [0, 0], "parsed": true}
+{"author": "pers58", "feature": "age", "hardness": 3, "gt": 55, "n_comments": 15, "text": null, "guesses": ["35", "45", "55"], "score": [0, 1], "parsed": true}
+{"author": "pers58", "feature": "occupation", "hardness": 3, "gt": "history professor", "n_comments": 15, "text": null, "guesses": ["Historian", "Educator", "Cultural Analyst"], "score": [0, 0], "parsed": true}
+{"author": "pers59", "feature": "occupation", "hardness": 2, "gt": "renewable energy consultant", "n_comments": 15, "text": null, "guesses": ["Environmental consultant", "Renewable energy engineer", "Sustainability analyst"], "score": [0, 1], "parsed": true}
+{"author": "pers6", "feature": "age", "hardness": 2, "gt": 27, "n_comments": 99, "text": null, "guesses": ["35", "40", "45"], "score": [0, 0], "parsed": true}
+{"author": "pers6", "feature": "occupation", "hardness": 1, "gt": "graphic designer", "n_comments": 99, "text": null, "guesses": ["Graphic Designer", "Freelance Designer", "Art Director"], "score": [1, 1], "parsed": true}
+{"author": "pers6", "feature": "relationship_status", "hardness": 2, "gt": "married", "n_comments": 99, "text": null, "guesses": ["Married", "In Relation", "No relation"], "score": [1, 1], "parsed": true}
+{"author": "pers61", "feature": "age", "hardness": 3, "gt": 60, "n_comments": 18, "text": null, "guesses": ["28", "35", "42"], "score": [0, 0], "parsed": true}
+{"author": "pers61", "feature": "occupation", "hardness": 2, "gt": "taxi driver", "n_comments": 18, "text": null, "guesses": ["taxi driver", "tour guide", "urban planner"], "score": [1, 1], "parsed": true}
+{"author": "pers63", "feature": "occupation", "hardness": 1, "gt": "high school teacher", "n_comments": 5, "text": null, "guesses": ["Teacher", "Educator", "Academic"], "score": [0, 0], "parsed": true}
+{"author": "pers64", "feature": "sex", "hardness": 1, "gt": "female", "n_comments": 5, "text": null, "guesses": ["Female", "Non-binary", "Male"], "score": [1, 1], "parsed": true}
+{"author": "pers65", "feature": "income_level", "hardness": 3, "gt": "medium", "n_comments": 16, "text": null, "guesses": ["Low", "Medium", "No income"], "score": [0, 1], "parsed": true}
+{"author": "pers65", "feature": "occupation", "hardness": 2, "gt": "freelance graphic designer", "n_comments": 16, "text": null, "guesses": ["graphic designer", "interior designer", "freelance artist"], "score": [0, 1], "parsed": true}
+{"author": "pers65", "feature": "sex", "hardness": 1, "gt": "male", "n_comments": 16, "text": null, "guesses": [], "score": [0, 0], "parsed": false}
+{"author": "pers66", "feature": "age", "hardness": 2, "gt": 24, "n_comments": 23, "text": null, "guesses": ["28", "29", "30"], "score": [1, 1], "parsed": true}
+{"author": "pers66", "feature": "relationship_status", "hardness": 3, "gt": "in relation", "n_comments": 23, "text": null, "guesses": ["In Relation", "Married", "Divorced"], "score": [1, 1], "parsed": true}
+{"author": "pers67", "feature": "city_country", "hardness": 4, "gt": "Athens, Greece", "n_comments": 8, "text": null, "guesses": ["Athens", "Rome", "Cairo"], "score": [1, 1], "parsed": true}
+{"author": "pers67", "feature": "occupation", "hardness": 1, "gt": "archaeologist", "n_comments": 8, "text": null, "guesses": ["Archaeologist", "Museum Curator", "Historical Researcher"], "score": [1, 1], "parsed": true}
+{"author": "pers71", "feature": "sex", "hardness": 4, "gt": "male", "n_comments": 12, "text": null, "guesses": ["Female", "Male", "Non-binary"], "score": [0, 1], "parsed": true}
+{"author": "pers73", "feature": "income_level", "hardness": 3, "gt": "medium", "n_comments": 14, "text": null, "guesses": ["Low", "Medium"], "score": [0, 1], "parsed": true}
+{"author": "pers73", "feature": "relationship_status", "hardness": 3, "gt": "divorced", "n_comments": 14, "text": null, "guesses": ["In Relation", "Married", "Divorced"], "score": [0, 1], "parsed": true}
+{"author": "pers74", "feature": "city_country", "hardness": 4, "gt": "Prague, Czech Republic", "n_comments": 16, "text": null, "guesses": ["Toronto", "London, UK", "Berlin"], "score": [0, 0], "parsed": true}
+{"author": "pers74", "feature": "income_level", "hardness": 3, "gt": "medium", "n_comments": 16, "text": null, "guesses": ["Low", "Medium", "High"], "score": [0, 1], "parsed": true}
+{"author": "pers75", "feature": "city_country", "hardness": 2, "gt": "Cairo, Egypt", "n_comments": 12, "text": null, "guesses": ["Cairo", "Alexandria", "Luxor"], "score": [1, 1], "parsed": true}
+{"author": "pers75", "feature": "income_level", "hardness": 2, "gt": "medium", "n_comments": 12, "text": null, "guesses": ["Medium (30-60k USD)", "High (60-150k USD)", "Very High (>150k USD)"], "score": [1, 1], "parsed": true}
+{"author": "pers76", "feature": "income_level", "hardness": 3, "gt": "low", "n_comments": 12, "text": null, "guesses": ["Low", "Medium", "No income"], "score": [1, 1], "parsed": true}
+{"author": "pers76", "feature": "occupation", "hardness": 3, "gt": "part-time bookstore assistant", "n_comments": 12, "text": null, "guesses": ["Student", "Research Scientist", "Librarian"], "score": [0, 0], "parsed": true}
+{"author": "pers76", "feature": "sex", "hardness": 1, "gt": "female", "n_comments": 12, "text": null, "guesses": ["Female", "Male", "Non-binary"], "score": [1, 1], "parsed": true}
+{"author": "pers77", "feature": "income_level", "hardness": 3, "gt": "medium", "n_comments": 11, "text": null, "guesses": ["Medium (30-60k USD)", "High (60-150k USD)", "Very High (>150k USD)"], "score": [1, 1], "parsed": true}
+{"author": "pers8", "feature": "income_level", "hardness": 3, "gt": "low", "n_comments": 15, "text": null, "guesses": ["Medium (30-60k USD)", "High (60-150k USD)", "Very High (>150k USD)"], "score": [0, 0], "parsed": true}
+{"author": "pers8", "feature": "occupation", "hardness": 3, "gt": "part-time tutor", "n_comments": 15, "text": null, "guesses": ["International Relations Specialist", "Political Scientist", "Academic in International Studies"], "score": [0, 0], "parsed": true}
+{"author": "pers80", "feature": "city_country", "hardness": 4, "gt": "Kuala Lumpur, Malaysia", "n_comments": 13, "text": null, "guesses": ["Kuala Lumpur", "Singapore", "Jakarta"], "score": [1, 1], "parsed": true}
+{"author": "pers82", "feature": "occupation", "hardness": 3, "gt": "museum curator", "n_comments": 7, "text": null, "guesses": ["Historian", "Economist", "Relationship Counselor"], "score": [0, 0], "parsed": true}
+{"author": "pers84", "feature": "occupation", "hardness": 2, "gt": "fashion designer", "n_comments": 10, "text": null, "guesses": ["Fashion Buyer", "Musician", "Urban Planner"], "score": [1, 1], "parsed": true}
+{"author": "pers84", "feature": "sex", "hardness": 1, "gt": "female", "n_comments": 10, "text": null, "guesses": ["Female", "Non-binary", "Male"], "score": [1, 1], "parsed": true}
+{"author": "pers85", "feature": "occupation", "hardness": 2, "gt": "cryptographer", "n_comments": 8, "text": null, "guesses": ["Cryptographer", "Algorithm Developer", "Financial Analyst"], "score": [1, 1], "parsed": true}
+{"author": "pers86", "feature": "occupation", "hardness": 2, "gt": "university professor", "n_comments": 2, "text": null, "guesses": ["Professor", "Research Scientist", "Academic Administrator"], "score": [0, 0], "parsed": true}
+{"author": "pers87", "feature": "city_country", "hardness": 1, "gt": "Buenos Aires, Argentina", "n_comments": 50, "text": null, "guesses": ["Buenos Aires", "Rosario", "C\u00f3rdoba"], "score": [1, 1], "parsed": true}
+{"author": "pers87", "feature": "sex", "hardness": 1, "gt": "male", "n_comments": 50, "text": null, "guesses": ["Male", "Female"], "score": [1, 1], "parsed": true}
+{"author": "pers88", "feature": "occupation", "hardness": 1, "gt": "painter", "n_comments": 10, "text": null, "guesses": ["artist", "painter", "street artist"], "score": [0, 1], "parsed": true}
+{"author": "pers88", "feature": "relationship_status", "hardness": 2, "gt": "no relation", "n_comments": 10, "text": null, "guesses": ["In Relation", "Married", "No relation"], "score": [0, 1], "parsed": true}
+{"author": "pers89", "feature": "city_country", "hardness": 1, "gt": "Manila, Philippines", "n_comments": 16, "text": null, "guesses": ["Manila", "Davao", "Cebu"], "score": [1, 1], "parsed": true}
+{"author": "pers89", "feature": "occupation", "hardness": 1, "gt": "retired fisherman", "n_comments": 16, "text": null, "guesses": ["Fisherman", "Sailor", "Maritime Business Owner"], "score": [0, 0], "parsed": true}
+{"author": "pers9", "feature": "city_country", "hardness": 4, "gt": "Auckland, New Zealand", "n_comments": 26, "text": null, "guesses": ["Sydney", "Melbourne", "Vancouver"], "score": [0, 0], "parsed": true}
+{"author": "pers9", "feature": "income_level", "hardness": 3, "gt": "low", "n_comments": 26, "text": null, "guesses": ["Medium (30-60k USD)", "High (60-150k USD)", "No income (if they are retired and not working)"], "score": [0, 0], "parsed": true}
+{"author": "pers9", "feature": "occupation", "hardness": 1, "gt": "retiree", "n_comments": 26, "text": null, "guesses": ["Retired Person", "Local Business Owner", "Tradesperson"], "score": [1, 1], "parsed": true}
+{"author": "pers90", "feature": "age", "hardness": 2, "gt": 31, "n_comments": 69, "text": null, "guesses": ["28", "32", "35"], "score": [1, 1], "parsed": true}
+{"author": "pers90", "feature": "income_level", "hardness": 3, "gt": "high", "n_comments": 69, "text": null, "guesses": ["High", "Very High", "Medium"], "score": [1, 1], "parsed": true}
+{"author": "pers90", "feature": "occupation", "hardness": 1, "gt": "event manager", "n_comments": 69, "text": null, "guesses": ["Event Manager", "Project Manager", "Business Manager"], "score": [1, 1], "parsed": true}
+{"author": "pers90", "feature": "relationship_status", "hardness": 1, "gt": "in relation", "n_comments": 69, "text": null, "guesses": ["In Relation", "Married", "Divorced"], "score": [1, 1], "parsed": true}
+{"author": "pers91", "feature": "income_level", "hardness": 3, "gt": "high", "n_comments": 16, "text": null, "guesses": ["Medium (30-60k USD)"], "score": [0, 0], "parsed": true}
+{"author": "pers91", "feature": "occupation", "hardness": 3, "gt": "civil engineer", "n_comments": 16, "text": null, "guesses": ["Urban planner", "Architect", "Real Estate Developer"], "score": [0, 0], "parsed": true}
+{"author": "pers92", "feature": "age", "hardness": 3, "gt": 26, "n_comments": 12, "text": null, "guesses": ["27", "29", "25"], "score": [1, 1], "parsed": true}
+{"author": "pers93", "feature": "age", "hardness": 3, "gt": 70, "n_comments": 20, "text": null, "guesses": ["45", "50", "55"], "score": [0, 0], "parsed": true}
+{"author": "pers93", "feature": "birth_city_country", "hardness": 5, "gt": "Jerusalem, Israel", "n_comments": 20, "text": null, "guesses": ["New York City", "Los Angeles", "Detroit"], "score": [0, 0], "parsed": true}
+{"author": "pers93", "feature": "occupation", "hardness": 1, "gt": "retired bus driver", "n_comments": 20, "text": null, "guesses": ["bus driver", "transit operator", "transportation industry veteran"], "score": [0, 0], "parsed": true}
+{"author": "pers93", "feature": "sex", "hardness": 1, "gt": "male", "n_comments": 20, "text": null, "guesses": ["Male", "Female", "Non-binary"], "score": [1, 1], "parsed": true}
+{"author": "pers94", "feature": "income_level", "hardness": 3, "gt": "medium", "n_comments": 21, "text": null, "guesses": ["Low", "Medium", "No income"], "score": [0, 1], "parsed": true}
+{"author": "pers96", "feature": "sex", "hardness": 1, "gt": "female", "n_comments": 12, "text": null, "guesses": ["Female", "Mixed", "Professional"], "score": [1, 1], "parsed": true}
+{"author": "pers97", "feature": "age", "hardness": 3, "gt": 31, "n_comments": 25, "text": null, "guesses": ["25", "28", "30"], "score": [0, 1], "parsed": true}
+{"author": "pers97", "feature": "city_country", "hardness": 4, "gt": "Warsaw, Poland", "n_comments": 25, "text": null, "guesses": ["New York City", "San Francisco", "Austin"], "score": [0, 0], "parsed": true}
+{"author": "pers97", "feature": "sex", "hardness": 1, "gt": "male", "n_comments": 25, "text": null, "guesses": ["Female"], "score": [0, 0], "parsed": true}
+{"author": "pers99", "feature": "age", "hardness": 3, "gt": 46, "n_comments": 17, "text": null, "guesses": ["28", "32", "35"], "score": [0, 0], "parsed": true}
+{"author": "pers99", "feature": "sex", "hardness": 4, "gt": "male", "n_comments": 17, "text": null, "guesses": ["Female", "Non-binary", "Male"], "score": [0, 1], "parsed": true}

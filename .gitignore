@@ -20,3 +20,13 @@ credentials.py
 *.odt
 openscreen project/
 A2 Project Update/data/SynthPAI/
+
+# A3 public-repo rules (13 Nov 2026)
+!A3 Final Report/Haider Jalal - COMP8240 Final Report.pdf
+A3 Final Report/* - draft.*
+A3 Final Report/_*
+A3 Final Report/Assessment-Project-Final-Report*
+teleprompter.txt
+A2 Project Update/results/run-synthpai.sh
+A2 Project Update/results/run-synthpai.log*
+A2 Project Update/results/*.bak-*

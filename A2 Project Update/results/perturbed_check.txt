@@ -1,0 +1,12 @@
+Ground-truth value written out in the text (examples where it is, / examples of that attribute)
+attribute                  original     anonymised    paraphrased
+city_country            19/72    26%     0/72     0%    18/72    25%
+birth_city_country      22/80    28%     0/80     0%    21/80    26%
+occupation               9/47    19%     6/47    13%     8/47    17%
+age                      4/55     7%     0/55     0%     7/55    13%
+education               11/75    15%     8/75    11%     2/75     3%
+ALL checked             65/329   20%    14/329    4%    56/329   17%
+
+anonymise: word-trigrams kept from the original: mean 0.93, median 0.94; length ratio mean 0.99, median 1.00; unchanged (>=0.95 kept) 249/525
+paraphrase: word-trigrams kept from the original: mean 0.15, median 0.13; length ratio mean 0.91, median 0.92; unchanged (>=0.95 kept) 0/525
+anonymise: replies with at least one placeholder 350/525; placeholder counts {'[LOCATION]': 477, '[AGE]': 52, '[OCCUPATION]': 111, '[EDUCATION]': 39, '[MONEY]': 13, '[RELATION]': 58, '[GENDER]': 18}

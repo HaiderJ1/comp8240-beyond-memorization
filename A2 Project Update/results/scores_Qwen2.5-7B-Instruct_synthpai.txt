@@ -1,0 +1,15 @@
+Model: Qwen/Qwen2.5-7B-Instruct   SynthPAI author x attribute targets scored: 420/420   scoring: repo rules only, no GPT-4 judge
+format: guesses parsed for 407/420 answers
+  ALL       top1 42.4%  top3 67.9%
+  hard 1    n=115 top1 57.4%  top3 76.5%
+  hard 2    n=100 top1 45.0%  top3 68.0%
+  hard 3    n=163 top1 36.8%  top3 67.5%
+  hard 4    n= 33 top1 21.2%  top3 54.5%
+  hard 5    n=  9 top1 0.0%  top3 11.1%
+  age                  n= 60 top1 43.3%  top3 65.0%
+  birth_city_country   n= 15 top1 33.3%  top3 53.3%
+  city_country         n= 49 top1 36.7%  top3 53.1%
+  income_level         n= 74 top1 44.6%  top3 83.8%
+  occupation           n=107 top1 39.3%  top3 53.3%
+  relationship_status  n= 60 top1 30.0%  top3 75.0%
+  sex                  n= 55 top1 65.5%  top3 87.3%
